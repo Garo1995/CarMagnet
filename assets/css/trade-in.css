@@ -1,0 +1,293 @@
+
+
+.pages-trade-in .car-loan__picture{
+    max-width: 586px;
+}
+.pages-trade-in  .car-loan__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.all-params{
+    background: unset;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    gap: 16px;
+    cursor: pointer;
+}
+.how-work__info h5{
+    margin-top: 24px;
+    color: var(--black-mood);
+    max-width: 1000px;
+    width: 100%;
+}
+.how-work__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px -15px 0;
+}
+.how-work__box{
+    width: 33.333333%;
+    padding: 15px;
+}
+.how-work__href{
+    border-radius: 24px;
+    background: var(--sliver-five);
+    transition: 0.3s;
+    height: 277px;
+    width: 100%;
+    position: relative;
+    padding: 45px 35px;
+    overflow: hidden;
+}
+.how-work__href:hover{
+    background: var(--main-color);
+}
+.how-work__href:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    background: linear-gradient(229deg, #6066FF 26.66%, #1E5AF4 120.4%);
+    opacity: 0;
+    transition: 0.3s;
+}
+.how-work__href strong{
+    color: var(--main-color);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    transition: 0.3s;
+}
+.how-work__href:hover:before{
+    opacity: 1;
+}
+.how-work__href:hover strong{
+    color: var(--white);
+}
+.how-work__href span, .doc-purch__href span{
+    position: relative;
+    transition: 0.3s;
+    display: block;
+    margin-top: 16px;
+    color: var(--black-mood);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 350px;
+    width: 100%;
+    z-index: 2;
+}
+.how-work__href:hover span{
+    color: var(--white);
+}
+.how-work__pic{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.how-work__pic img{
+    border-radius: 0 0 24px 0;
+}
+
+.doc-purch____wrap{
+    margin: 50px -15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.doc-purch__box{
+    width: 33.333333%;
+    padding: 16px 15px;
+}
+.doc-purch__href{
+    position: relative;
+    transition: 0.3s;
+    padding: 24px;
+    border-radius: 16px;
+    background: var(--sliver-five);
+    width: 100%;
+    height: 234px;
+    border: 6px solid transparent;
+}
+.doc-purch__href:hover{
+    border: 6px solid var(--main-color);
+}
+.doc-purch__href strong{
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.doc-purch__href .how-work__pic img{
+    border-radius: 0 0 16px 0;
+}
+.accordion__photo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.accordion__photo img{
+    margin-bottom: 32px;
+    max-width: 302px;
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.modal-trade-in{
+    background-image: url("../img/rasshir.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 80px;
+    width: 100%;
+    border-radius: 40px;
+    position: relative;
+}
+
+.modal-trade-in .modal-inp {
+    width: 100%;
+    margin-bottom: 0;
+}
+.modal-trade-in .btn-blue{
+    margin-top: 42px;
+    width: 100%;
+    padding: 22px 48px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.modal-trade-in .btn-blue:before{
+    display: none;
+}
+@media (max-width: 1599px){
+    .modal-trade-in {
+        padding: 80px 30px 50px;
+    }
+}
+@media (max-width: 1420px){
+    .how-work__href span, .doc-purch__href span {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 264px;
+    }
+    .how-work__href {
+        height: 245px;
+        padding: 30px 21px;
+    }
+    .how-work__box {
+        padding: 8px;
+    }
+    .how-work__wrap {
+        margin: 50px -8px 0;
+    }
+    .doc-purch__box {
+        padding: 12px 8px;
+    }
+    .doc-purch____wrap {
+        margin: 50px -8px 0;
+    }
+}
+@media (max-width: 1199px){
+    .modal-trade-in .car-selection__info {
+        flex-wrap: wrap;
+    }
+    .car-selection__info {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .modal-trade-in .modal-inp {
+        width: 32%;
+    }
+    .modal-trade-in  .select-brand {
+        max-width: 32%;
+    }
+    .modal-trade-in .btn-blue {
+        margin-top: 32px;
+        padding: 16px 32px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .modal-trade-in  .car-selection__info {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1099px){
+    .pages-trade-in .car-loan__picture {
+        max-width: 350px;
+    }
+
+    .how-work__href strong {
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .doc-purch__href strong {
+        font-size: 34px;
+        line-height: 38px;
+    }
+}
+@media (max-width: 1020px){
+    .modal-trade-in .modal-inp {
+        width: 48%;
+    }
+    .modal-trade-in .select-brand {
+        max-width: 48%;
+    }
+
+}
+@media (max-width: 760px){
+    .doc-purch__box {
+        width: 100%;
+        padding: 12px 0;
+    }
+    .how-work__box {
+        width: 100%;
+    }
+    .doc-purch____wrap {
+        margin: 35px 0 0;
+    }
+    .modal-trade-in {
+        padding: 30px 20px 30px;
+        border-radius: 32px;
+        background-position: center;
+    }
+    .modal-trade-in .modal-inp {
+        width: 100%;
+    }
+    .modal-trade-in .car-selection__title {
+        width: 100%;
+    }
+    .modal-trade-in .btn-blue {
+        margin-top: 32px;
+        padding: 8px 32px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .modal-trade-in .select-brand {
+        max-width: 100%;
+    }
+    .how-work__wrap {
+        margin: 35px 0 0;
+    }
+    .how-work__box {
+        padding: 15px 0;
+    }
+    .doc-purch__href {
+        padding: 20px;
+    }
+}

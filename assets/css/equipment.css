@@ -1,0 +1,240 @@
+.equipment-prices__flex{
+    margin-top: 55px;
+    display: flex;
+    gap: 40px;
+}
+.equipment-prices__box{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 24px;
+    border-radius: 24px;
+    background: var(--sliver-five);
+    max-width: 422px;
+    width: 100%;
+}
+.equipment-prices__box img{
+    max-width: 148px;
+    width: 100%;
+}
+.equipment-prices__box span{
+    color: var(--black-mood);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.equipment-prices__act{
+    border-radius: 24px;
+    background: var(--main-color);
+
+}
+.equipment-prices__act span{
+    color: var(--white);
+}
+
+
+.equipment-prices__main .accordion__block {
+    gap: 0;
+}
+
+
+.on-credit-cash{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+.on-credit-cash__item{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.on-credit-cash__href{
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+    justify-content: center;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--gray);
+}
+.on-credit-cash__href span{
+    color: var(--blue-two);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.on-credit-cash__href i{
+    color: var(--main-color);
+    font-size: 20px;
+
+}
+
+.on-credit-cash__flex{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-left: 48px;
+}
+.on-credit-cash__tab{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.on-credit-cash__tab p{
+    color: var(--sliver-tree);
+    font-size: 20px;
+
+}
+.on-credit-cash__tab span{
+    display: block;
+    color: var(--black);
+}
+.on-credit-cash__tab del{
+    color: var(--sliver-tree);
+}
+.on-credit-cash__tab strong{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.on-credit--sub{
+    margin-top: 30px;
+}
+.on-credit--sub ul{
+    margin-left: 25px;
+
+}
+.on-credit--sub ul li{
+    padding-left: 22px;
+    color: var(--sliver-tree);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+}
+.on-credit--sub ul li:before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--main-color);
+}
+
+@media (max-width: 1599px){
+    .on-credit-cash__flex {
+        gap: 24px;
+        margin-left: 0;
+    }
+    .on-credit-cash {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .equipment-prices__box {
+        padding: 8px 13px;
+        gap: 14px;
+    }
+    .equipment-prices__box span {
+        font-size: 18px;
+    }
+    .equipment-prices__flex {
+        gap: 20px;
+    }
+}
+@media (max-width: 1399px){
+    .on-credit-cash__href {
+        padding: 12px 20px;
+        gap: 12px;
+    }
+    .on-credit-cash__href span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .on-credit-cash__tab {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .on-credit-cash__tab p {
+        font-size: 18px;
+    }
+    .equipment-prices__box img {
+        max-width: 106px;
+    }
+}
+@media (max-width: 1299px) {
+    .equipment-prices__flex {
+        flex-wrap: wrap;
+    }
+    .equipment-prices__box {
+        padding: 8px 13px;
+        gap: 14px;
+        max-width: 31%;
+        border-radius: 16px;
+    }
+    .on-credit-cash__tab p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .on-credit-cash__tab {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .on-credit-cash__href i {
+        font-size: 18px;
+    }
+    .on-credit-cash__href span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 1020px){
+    .equipment-prices__box {
+        max-width: 48%;
+    }
+    .equipment-prices__flex {
+        margin-top: 32px;
+    }
+
+}
+@media (max-width: 760px){
+    .on-credit-cash__flex {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .equipment-prices__box {
+        max-width: 100%;
+    }
+    .equipment-prices__box img {
+        max-width: 100px;
+    }
+    .on-credit--sub {
+        margin-top: 20px;
+    }
+    .on-credit--sub ul li {
+        padding-left: 18px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .on-credit--sub ul {
+        margin-left: 18px;
+    }
+}
+@media (max-width: 570px){
+    .on-credit-cash__tab {
+        font-size: 16px;
+        line-height: 22px;
+        width: 46%;
+    }
+    .on-credit-cash__href {
+        padding: 11px 14px;
+        gap: 9px;
+    }
+    .on-credit-cash__href span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

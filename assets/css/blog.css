@@ -1,0 +1,629 @@
+.blog-page__cnt{
+    padding-top: 20px;
+}
+.blog-page__block{
+    margin-top: 75px;
+}
+.blog-page__logo{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.blog-page__logo img{
+    width: 107px;
+}
+.blog-page__block h4{
+    color: var(--black);
+}
+.blog-page__box{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding: 32px 32px;
+    gap: 48px;
+    border-radius: 32px;
+    border: 1px solid var(--gray-two);
+}
+.blog-page__box img{
+    border-radius: 24px;
+    max-width: 446px;
+    width: 100%;
+}
+
+
+.blog-page__info p{
+    max-width: 975px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+
+.blog-single__block {
+    border-radius: 40px;
+    border: 1px solid var(--sliver-tree);
+    margin: 24px 0 0;
+}
+.blog-single__fl{
+    display: flex;
+    align-items: center;
+    border-radius: 32px 32px 0px 0px;
+    background: var(--black-mood);
+    padding: 56px;
+    gap: 48px;
+
+}
+.blog-single__photo{
+    display: flex;
+    max-width: 680px;
+    width: 100%;
+}
+.blog-single__photo img{
+    border-radius: 24px;
+    width: 100%;
+}
+.blog-single__info{
+    max-width: 680px;
+    width: 100%;
+}
+.blog-single__info h2{
+    color: var(--white);
+    margin-top: 34px;
+}
+.blog-single__info>p{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--sliver);
+    margin-top: 32px;
+
+}
+
+.blog-single__info .pop-reviews__user img {
+    max-width: 56px;
+    height: 56px;
+}
+
+.blog-single__info .pop-reviews__name span{
+    color: var(--white);
+}
+.blog-single__info .pop-reviews__name p{
+    color: var(--white);
+}
+.blog-single__info .pop-reviews-like .icons {
+    color: var(--sliver-two);
+}
+.blog-single__info .pop-reviews-like small{
+    color: var(--sliver-two);
+}
+.blog-single__info  .pop-reviews__param {
+    max-width: 290px;
+    width: 100%;
+}
+.blog-sing-all{
+    padding: 48px;
+}
+
+
+.blog-sing-box{
+    padding: 32px;
+    border-radius: 32px;
+    border: 1px solid var(--sliver-two);
+    margin-bottom: 80px;
+}
+.blog-sing-fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 48px;
+}
+.blog-sing-fl:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.blog-sing-box:nth-child(even) .blog-sing-fl{
+    flex-direction: row-reverse;
+}
+.blog-sing-box:nth-child(2) .blog-sing-fl {
+    flex-direction: row;
+}
+.blog-sing-box:nth-child(3) .blog-sing-fl {
+    flex-direction: row-reverse;
+}
+.blog-sing-fl + .blog-sing-fl{
+    margin-top: 48px;
+}
+.blog-sing-text{
+    max-width: 628px;
+    width: 100%;
+}
+.blog-sing-text h4{
+    color: var(--black);
+    margin-bottom: 16px;
+}
+.blog-sing-text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-two);
+}
+.blog-sing-box:nth-child(4) .blog-sing-fl:first-child {
+    flex-direction: row;
+}
+
+.blog-sing-picture{
+    max-width: 684px;
+    width: 100%;
+    display: flex;
+}
+.blog-sing-picture img{
+    width: 100%;
+    border-radius: 24px;
+
+}
+
+.comp-packages__cnt{
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.comp-packages__pic{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+}
+.comp-packages__info{
+    max-width: 535px;
+    width: 100%;
+}
+.comp-packages__info h4{
+    color: var(--black);
+}
+.comp-packages__info ul{
+    margin-top: 32px;
+    color: var(--black-two);
+    list-style-type: disc;
+    margin-left: 30px;
+}
+.comp-packages__info ul li{
+    color: var(--black-two);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.blog-sing-all .equipment__info{
+    max-width: 100%;
+}
+.blog-sing-equip{
+    margin-top: 80px;
+}
+.blog-equip__flex{
+    display: flex;
+    margin-top: 48px;
+    gap: 48px;
+}
+.blog-equip__cnt{
+    position: relative;
+    max-width: 1111px;
+    width: 100%;
+}
+.blog-equip__cnt .equipment__gallery{
+    height: auto;
+}
+.blog-equip__rig{
+    position: relative;
+    max-width: 265px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-equip-sm__slider{
+    height: 595px;
+    width: 100%;
+}
+.blog-equip-button-prev, .blog-equip-button-next{
+    position: absolute;
+    right: 0;
+    left: 50%;
+    background: var(--main-color);
+    backdrop-filter: blur(7.5px);
+}
+
+.blog-equip-button-prev{
+    top: -10px;
+    transform: translateX(-50%) rotate(90deg);
+}
+.blog-equip-button-next{
+    bottom: 0;
+    top: auto;
+    transform: translateX(-50%) rotate(90deg);
+}
+.drive-duster__fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 90px 0;
+}
+
+.drive-duster__fl h2{
+    max-width: 470px;
+    width: 100%;
+}
+
+.drive-duster__photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    height: 440px;
+    max-width: 780px;
+    width: 100%;
+}
+
+.disadvantages-dus__block{
+    padding: 32px;
+    border-radius: 32px;
+    border: 1px solid var(--sliver-two);
+}
+.disadvantages-dus__block>p{
+    margin-top: 16px;
+}
+.disadvantages-dus__block h5{
+    margin-top: 40px;
+    color: var(--black);
+}
+.disadvantages-dus__fl{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disadvantages-dus__cnt{
+    width: 48%;
+}
+.disadvantages-dus__cnt .general-pros__text {
+    margin-top: 10px;
+}
+
+.liked-the-review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.liked-review-data, .liked-the-review__ob{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.liked-review-data p{
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.liked-the-review__ob .pop-reviews__param {
+    margin-top: 0;
+}
+
+.liked-the-review .pop-reviews-like small {
+    font-size: 20px;
+    line-height: 20px;
+}
+.liked-the-review .pop-reviews-like .icons {
+    font-size: 23px;
+}
+.for-all-comments .writing-reviews__box{
+    margin-top: 48px;
+}
+.for-all-comments .writing-reviews__box h4{
+    color: var(--black);
+}
+.big-btn-post .btn-lin-ok {
+    max-width: 831px;
+    width: 100%;
+}
+@media (max-width: 1699px){
+    .blog-single__fl {
+        padding: 40px;
+        gap: 32px;
+    }
+}
+@media (max-width: 1599px){
+    .blog-equip__flex {
+        gap: 24px;
+    }
+    .blog-equip__cnt {
+        max-width: 995px;
+    }
+}
+@media (max-width: 1399px){
+    .blog-equip__cnt {
+        max-width: 885px;
+    }
+    .blog-sing-fl {
+        gap: 32px;
+    }
+    .blog-sing-all {
+        padding: 32px;
+    }
+}
+@media (max-width: 1299px){
+    .blog-page__box {
+        padding: 24px 24px;
+        gap: 24px;
+        border-radius: 24px;
+    }
+    .blog-single__fl {
+        padding: 32px;
+        gap: 32px;
+    }
+
+    .blog-single__info h2 {
+        margin-top: 24px;
+    }
+    .blog-single__info>p {
+        margin-top: 24px;
+    }
+    .blog-sing-box {
+        padding: 24px;
+        margin-bottom: 40px;
+    }
+    .blog-equip-sm__slider {
+        height: 505px;
+    }
+    .disadvantages-dus__block .general-pros__text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .liked-the-review .pop-reviews-like small {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 1199px){
+    .blog-page__box img {
+        max-width: 350px;
+    }
+    .blog-single__fl {
+        padding: 24px;
+        gap: 24px;
+    }
+    .blog-sing-all {
+        padding: 24px;
+    }
+    .blog-equip__flex {
+        flex-direction: column;
+    }
+    .blog-equip__rig {
+        max-width: 100%;
+    }
+
+    .blog-equip-sm__slider {
+        height: auto;
+        width: 100%;
+    }
+    .blog-equip-button-prev {
+        top: auto;
+        transform: translateX(0) rotate(0);
+        left: 5px;
+    }
+    .blog-equip-button-next {
+        bottom: auto;
+        top: auto;
+        transform: translateX(0) rotate(0);
+        right: 5px;
+        left: auto;
+    }
+    .blog-equip__flex {
+        max-width: 900px;
+        width: 100%;
+    }
+    .drive-duster__fl {
+        margin: 60px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+}
+@media (max-width: 1020px){
+    .blog-page__item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .blog-page__box {
+        padding: 16px;
+        gap: 24px;
+        flex-direction: column;
+        width: 49%;
+    }
+    .blog-page__info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blog-page__block {
+        margin-top: 42px;
+    }
+    .blog-page__logo img {
+        width: 70px;
+    }
+
+    .blog-single__fl {
+        flex-direction: column;
+        border-radius: 24px;
+        margin-bottom: 32px;
+    }
+    .blog-single__block {
+        border: unset;
+    }
+    .blog-sing-all {
+        padding: 0;
+        margin-top: 32px;
+    }
+    .blog-sing-fl {
+        gap: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-sing-fl + .blog-sing-fl {
+        margin-top: 32px;
+    }
+    .blog-sing-fl:nth-child(even) {
+        flex-direction: column;
+    }
+    .blog-sing-box:nth-child(2) .blog-sing-fl {
+        flex-direction: column;
+    }
+    .blog-sing-box {
+        padding: 24px 16px;
+        margin-bottom: 32px;
+        border-radius: 16px;
+    }
+    .blog-sing-box:nth-child(3) .blog-sing-fl {
+        flex-direction: column;
+    }
+    .blog-sing-box:nth-child(4) .blog-sing-fl:first-child {
+        flex-direction: column;
+    }
+    .blog-sing-box:nth-child(even) .blog-sing-fl {
+        flex-direction: column;
+    }
+    .comp-packages__cnt {
+        margin: 32px 0;
+        gap: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-equip-button-prev, .blog-equip-button-next {
+        display: flex;
+    }
+    .disadvantages-dus__fl {
+        margin-top: 32px;
+        flex-direction: column;
+    }
+    .disadvantages-dus__cnt {
+        width: 100%;
+    }
+    .liked-review-data{
+        display: none;
+    }
+    .liked-the-review {
+        justify-content: flex-end;
+        margin-top: 32px;
+    }
+
+
+}
+
+@media (max-width: 760px){
+    .blog-page__box {
+        width: 100%;
+        max-width: 420px;
+    }
+    .blog-single__fl {
+        padding: 16px;
+        margin-bottom: 0;
+    }
+   .blog-single__block .available-fon{
+        background: unset;
+    }
+    .blog-sing-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blog-sing-picture img {
+        width: 100%;
+        border-radius: 16px;
+    }
+    .blog-equip-button-prev, .blog-equip-button-next {
+        bottom: -46px;
+    }
+    .blog-equip-button-prev {
+        left: 40%;
+    }
+    .blog-equip-button-next{
+        right: 40%;
+    }
+    .drive-duster__fl {
+        margin: 100px 0 24px;
+    }
+    .liked-the-review__ob {
+        gap: 19px;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+@media (max-width: 570px){
+    .equipment__photo {
+        height: 69px;
+        border-radius: 8px;
+        margin: 0 auto;
+        max-width: 120px;
+    }
+    .blog-single__info .pop-reviews__user {
+        align-items: center;
+    }
+    .blog-single__info .pop-reviews__user img {
+        max-width: 32px;
+        height: 32px;
+    }
+    .blog-single__photo img {
+        height: 304px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .blog-single__info>p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blog-sing-text h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .blog-equip__flex {
+        margin-top: 24px;
+    }
+    .drive-duster__photo {
+        border-radius: 16px;
+        height: 203px;
+        max-width: 420px;
+    }
+    .disadvantages-dus__block {
+        padding: 0;
+        border-radius: 0;
+        border: unset;
+        margin-top: 34px;
+    }
+    .disadvantages-dus__block h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .disadvantages-dus__block .general-pros__text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .disadvantages-dus__block h5 {
+        margin-top: 24px;
+    }
+    .disadvantages-dus__fl {
+        margin-top: 24px;
+    }
+    .blog-sing-all  .rev-fon-icon .pop-reviews-like {
+        padding: 8px 12px;
+        width: 47%;
+        justify-content: center;
+    }
+    .blog-sing-all  .rev-fon-icon .pop-reviews-like:last-child{
+        width: 100%;
+    }
+    .writing-reviews__textarea small {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

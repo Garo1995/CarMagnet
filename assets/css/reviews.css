@@ -1,0 +1,1381 @@
+.reviews-list-car{
+    margin-top: 16px;
+}
+.reviews-list-car span{
+    color: var(--blue-two);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.list-car-rev__numb{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--main-color);
+
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.reviews-black-fon{
+    background: var(--black-mood);
+}
+.reviews-form{
+    padding: 72px 0;
+}
+.reviews-form__cnt{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.reviews-form__cnt .select-style {
+    max-width: 31%;
+    width: 100%;
+}
+.reviews-form__btn{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.reviews-form__btn button{
+    border-radius: 24px;
+    font-size: 20px;
+}
+.reviews-form__btn .btn-blue{
+    padding: 24px 32px;
+}
+.reviews-form__btn .button-line{
+    padding: 21px 32px;
+}
+.button-line{
+    display: flex;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 2px solid var(--white);
+    background: unset;
+    white-space: nowrap;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+
+.pop-reviews__cnt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+}
+.pop-reviews__share{
+    display: flex;
+    max-width: 29.5%;
+    width: 100%;
+    padding: 32px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 40px;
+    background: var(--main-color);
+    box-shadow: 0px 8px 22px 0px rgba(23, 22, 34, 0.08);
+    position: sticky;
+    top: 20px;
+}
+.pop-reviews__share img{
+    border-radius: 32px;
+    object-fit: cover;
+    width: 100%;
+    height: 261px;
+}
+
+.pop-reviews__share .btn-white {
+    padding: 24px 32px;
+    width: 100%;
+    color: var(--main-color);
+    font-size: 32px;
+    line-height: 40px;
+}
+.pop-reviews__right{
+    max-width: 66.2%;
+    width: 100%;
+}
+
+
+.pop-reviews-rel {
+    width: 100%;
+    margin-top: 48px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.pop-reviews__box{
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 32px;
+    border: 1px solid var(--sliver-tree);
+    background: var(--white);
+    box-shadow: 0px 8px 22px 0px rgba(23, 22, 34, 0.08);
+    position: relative;
+
+}
+.pop-reviews__box .cars-info-use {
+    top: 24px;
+    left: 24px;
+}
+.pop-reviews__photo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.pop-reviews__btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pop-reviews__info{
+    margin-top: 24px;
+}
+.pop-reviews__title{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.pop-reviews__number{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+.pop-reviews__title strong{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.pop-reviews__user{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.pop-reviews__user img{
+    border-radius: 50%;
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+}
+.pop-reviews__name span{
+    display: block;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.pop-reviews__name p{
+    display: block;
+    color: var(--black-two);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.pop-reviews__volk{
+    margin-top: 16px;
+}
+.pop-reviews__volk span{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    display: block;
+}
+.pop-reviews__volk p{
+    color: var(--black-two);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.pop-reviews__param{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 24px;
+}
+.pop-reviews-like {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.click-icon-lik{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.pop-reviews-like small{
+    color: var(--black-two);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+}
+.pop-reviews-like .icons{
+    color: var(--black-two);
+    font-size: 16px;
+}
+
+.pop-reviews__product{
+    margin-bottom: 60px;
+}
+
+.owners-from__flex{
+    margin-top: 32px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.owners-only__with{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--gray);
+    padding: 6px;
+    gap: 8px;
+    width: max-content;
+}
+.owners-only__with a{
+    color: var(--blue-two);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+    padding: 6px 16px;
+    align-items: center;
+    gap: 10px;
+
+}
+.owners-only__with .owners-only__rev{
+    border-radius: 222px;
+    background: var(--main-color);
+    color: var(--white);
+}
+
+
+.owners-from__data {
+    padding: 11px 26px;
+    border: 1px solid var(--sliver-five);
+    border-radius: 24px;
+    background: var(--sliver-five);
+    display: flex;
+    align-items: center;
+    color: var(--blue-two);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    cursor: pointer;
+    position: relative;
+}
+.owners-from__data:after{
+    content: "";
+    position: relative;
+    top: -3px;
+    margin-left: 30px;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid var(--blue-two);
+    border-right: 2px solid var(--blue-two);
+    transform: rotate(135deg);
+    transition: 0.3s;
+}
+.owners-sel__acts .owners-from__data:after{
+    transform: rotate(-45deg);
+    top: 4px;
+
+}
+.owners-from__drop{
+    position: absolute;
+    display: none;
+    border-radius: 16px;
+    border: 1px solid var(--black-mood);
+    background: var(--white);
+    max-width: 391px;
+    width: 100%;
+    padding: 16px 20px;
+    margin-top: 10px;
+    z-index: 11;
+}
+.owners-sel__acts .owners-from__drop{
+    display: block;
+}
+.owners-from__drop ul li + li{
+    margin-top: 12px;
+}
+.owners-from__drop ul li{
+    color: var(--black-mood);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    padding: 2px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.owners-from__drop ul li:hover{
+    background: linear-gradient(229deg, #6066FF 26.66%, #1E5AF4 120.4%);
+    color: var(--white);
+}
+.length-revmax__block{
+    padding-top: 8px;
+}
+.length-revmax__box{
+    margin-top: 32px;
+    display: flex;
+    padding: 48px 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 32px;
+    border: 1px solid var(--sliver-tree);
+    background: var(--white);
+    box-shadow: 0px 8px 22px 0px rgba(23, 22, 34, 0.08);
+}
+.length-revmax__name{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+.length-revmax__numb{
+    display: flex;
+    max-width: 72px;
+    width: 100%;
+    height: 72px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid var(--green);
+    color: var(--green);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.length-revmax__name h4{
+    color: var(--black);
+    font-weight: 500;
+
+}
+.length-revmax__picture{
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+    border-radius: 24px;
+    background: var(--sliver-five);
+    justify-content: center;
+}
+.length-revmax__picture img{
+    border-radius: 16px;
+}
+.length-revmax__cnt{
+    margin-top: 48px;
+}
+.revi-single__text{
+    margin-top: 35px;
+}
+.revi-single__text p, .revi-single__text ul li{
+    color: var(--black-two);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.revi-single__text ul{
+
+}
+.length-revmax__user{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.length-user__pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 56px;
+    width: 100%;
+    height: 56px;
+    color: var(--black-mood);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 50%;
+    background: var(--sliver-five);
+}
+.length-user__name span{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+
+}
+.length-user__name small{
+    color: var(--black-two);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+}
+.length-revmax__cnt>p{
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.length-user__volks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.length-user__volks p{
+    color: var(--black);
+
+}
+
+.length-user__volks .pop-reviews-like small {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.length-user__volks .icons {
+    font-size: 23px;
+}
+.length-user__volks .pop-reviews__param {
+    margin-top: 0;
+    gap: 20px;
+}
+
+
+
+.numb-col-yellow{
+    border: 4px solid var(--yellow);
+    color: var(--yellow);
+}
+
+.about-brands__tit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-brands__cnt{
+    margin-top: 40px;
+    position: relative;
+}
+.about-brands__cnt .list-car__info {
+    height: 136px;
+    box-shadow: unset;
+}
+
+.about-brands__slider{
+    padding: 8px 0;
+}
+.reviews-interested__price{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    position: relative;
+}
+.reviews-interested__price small{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: 0.3s;
+
+}
+.reviews-interested__price p{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: 0.3s;
+}
+.interested-rev-siz .outProduction__pic {
+    padding: 24px 22px;
+}
+.reviews-interested__price p {
+    font-size: 18px;
+    line-height: 22px;
+}
+.outProduction__pic:hover .reviews-interested__price small{
+    color: var(--white);
+}
+.outProduction__pic:hover .reviews-interested__price p{
+    color: var(--white);
+}
+.interested-rev-siz .outProduction__pic span {
+    font-size: 18px;
+}
+
+.mark-name-car{
+    max-width: 31%;
+    width: 100%;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--white);
+    background: var(--white);
+}
+.mark-name-car strong{
+    color: var(--black-mood);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mark-name-car .checkmark-cnt{
+    width: 24px;
+    height: 24px;
+}
+.mark-name-car .checkmark {
+    width: 24px;
+    height: 24px;
+    background: var(--main-color);
+    top: 1px;
+}
+.mark-name-car .checkmark-cnt label {
+    padding-left: 0;
+}
+.mark-name-car .checkmark-cnt label .checkmark:after {
+    border: solid var(--white);
+    border-width: 0 3px 3px 0;
+    opacity: 1;
+}
+.mark-name-car .checkmark-cnt label .checkmark:after {
+    left: 8px;
+    top: 3px;
+}
+.reviews-rating{
+    width: 100%;
+}
+.reviews-rating .rating-count-size {
+    background: var(--sliver-five);
+}
+.reviews-rating .rating-yech p, .reviews-rating .rating-yech span {
+    color: var(--black-mood);
+}
+.reviews-rating .rating-rezult {
+    background: unset;
+    border: 8px solid var(--blue-three)
+}
+
+.reviews-rating .rating-rezult span {
+    color: var(--blue-three);
+}
+.general-pros__cons{
+    margin-top: 48px;
+}
+.general-pros__text{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+.general-pros__text span{
+    display: flex;
+    max-width: 48px;
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.general-pros__plus{
+    background: linear-gradient(0deg, #49B19F 0%, #49B19F 100%), linear-gradient(229deg, #6066FF 26.66%, #1E5AF4 120.4%);
+}
+.general-pros__minus{
+    background: linear-gradient(0deg, #F39CA0 0%, #F39CA0 100%), linear-gradient(229deg, #6066FF 26.66%, #1E5AF4 120.4%);
+}
+.general-pros__text p{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black-mood);
+}
+
+
+
+
+.reviews-form .bread-caps-pages ul li + li:after {
+    content: url(../img/icon/slaq.svg);
+}
+.reviews-form .bread-caps-pages ul li, .reviews-form .bread-caps-pages ul li a {
+    color: var(--white);
+}
+.reviews-form h2{
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+
+
+.length-revmax__box .rating-hyund__fl {
+    gap: 32px;
+    margin-top: 80px;
+}
+
+
+.rev-single__leng .length-user__volks {
+    margin-top: 92px;
+    width: 100%;
+}
+
+
+.rev-fon-icon .pop-reviews-like{
+    padding: 12px 16px;
+    border-radius: 24px;
+    background: var(--sliver-five);
+}
+
+.rev-single__leng .length-user__volks .icons {
+    font-size: 27px;
+}
+
+.for-all-comments{
+    margin-top: 110px;
+}
+
+.comments__box{
+    padding: 24px;
+    border-radius: 32px;
+    border: 1px solid var(--sliver-tree);
+    background: var(--white);
+    box-shadow: 0px 8px 22px 0px rgba(23, 22, 34, 0.08);
+    margin-top: 40px;
+    position: relative;
+}
+.comments__box .pop-reviews__user img {
+    max-width: 56px;
+    height: 56px;
+}
+
+.comments__box .pop-reviews__name span {
+    font-size: 24px;
+    line-height: 28px;
+}
+.comments__box .pop-reviews__name p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 4px;
+}
+.ready-comments{
+    margin-top: 16px;
+}
+.ready-comments p{
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black-two);
+}
+.comments__grade{
+    margin-top: 45px;
+    display: flex;
+    margin-left: auto;
+    gap: 45px;
+    width: max-content;
+
+}
+
+.comments__grade .icons{
+    font-size: 28px;
+}
+
+.comments__grade .pop-reviews-like small{
+    color: var(--black-two);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.comments-answer{
+    margin-left: auto;
+    width: 95%;
+    border-radius: 8px 32px 32px 32px;
+}
+
+
+.login-post-review{
+    border-radius: 32px 8px 32px 32px;
+    background: var(--black-mood);
+    padding: 24px;
+    margin-top: 48px;
+}
+.login-post-review h5{
+    color: var(--white);
+}
+.login-post__btn{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+.review-single-pages{
+    margin-top: 32px;
+}
+.review-single-pages .length-revmax__box{
+    margin-top: 0;
+}
+.btn-lin-ok, .btn-lin-log{
+    transition: 0.3s;
+    display: flex;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: unset;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    white-space: nowrap;
+}
+.btn-lin-ok{
+    border: 2px solid var(--gazar);
+    color: var(--yellow-two);
+}
+.btn-lin-ok:hover{
+    background: var(--gazar);
+    color: var(--white);
+}
+
+.btn-lin-log{
+    border: 2px solid var(--blue-five);
+    color: var(--blue-five);
+}
+.btn-lin-log:hover{
+    background: var(--blue-five);
+    color: var(--white);
+}
+
+.other-rev-about__slider .pop-reviews__box{
+    max-width: 567px;
+    width: 100%;
+}
+.other-rev-about__slider .pop-reviews__info {
+    margin-top: 0;
+}
+
+.brand-car-services .districts__map{
+    margin-top: 40px;
+    height: 420px;
+}
+
+
+.reviews-assessment .assessment__box:nth-child(3) {
+    border-radius: 4px 4px 4px 32px;
+}
+
+.reviews-assessment .assessment__box:nth-child(4) {
+    border-radius: 4px 4px 32px 4px;
+}
+@media (max-width: 1699px){
+
+    .pop-reviews__cnt {
+        gap: 24px;
+    }
+    .pop-reviews__share {
+        padding: 24px 24px;
+        gap: 25px;
+        border-radius: 32px;
+    }
+    .pop-reviews__share .btn-white {
+        padding: 20px 27px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .pop-reviews__right {
+        max-width: 68.2%;
+    }
+    .length-revmax__box {
+        padding: 30px 30px;
+    }
+}
+@media (max-width: 1599px){
+
+    .length-revmax__box {
+        margin-top: 22px;
+        padding: 34px 30px;
+    }
+    .btn-lin-ok, .btn-lin-log {
+        padding: 18px 22px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 1399px){
+    .reviews-form__btn button {
+        font-size: 18px;
+    }
+    .reviews-form__btn .btn-blue{
+        padding: 16px 24px;
+
+    }
+    .reviews-form__btn .button-line{
+        padding: 13px 24px;
+    }
+    .pop-reviews__box {
+        padding: 12px;
+        border-radius: 24px;
+    }
+    .pop-reviews__share {
+        padding: 20px 16px;
+        gap: 20px;
+        border-radius: 24px;
+    }
+    .pop-reviews__share img {
+        border-radius: 24px;
+        height: 184px;
+    }
+    .pop-reviews__share {
+        max-width: 26.5%;
+    }
+    .pop-reviews__right {
+        max-width: 72.2%;
+    }
+    .pop-reviews__param {
+        gap: 12px;
+    }
+
+    .pop-reviews__product{
+        margin-bottom: 32px;
+    }
+    .owners-only__with a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .owners-from__data {
+        padding: 10px 20px;
+        border-radius: 24px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .revi-single__text p, .revi-single__text ul li {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .rev-single__leng .length-user__volks .icons {
+        font-size: 22px;
+    }
+    .length-user__volks .pop-reviews-like small {
+        font-size: 18px;
+    }
+    .ready-comments p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .comments__grade .icons {
+        font-size: 22px;
+    }
+    .btn-lin-ok, .btn-lin-log {
+        padding: 14px 21px;
+        font-size: 16px;
+    }
+    .login-post-review {
+        border-radius: 24px 8px 24px 24px;
+        padding: 20px;
+        margin-top: 34px;
+    }
+}
+@media (max-width: 1299px){
+    .reviews-form {
+        padding: 50px 0;
+    }
+    .reviews-form__btn button {
+        padding: 12px 24px;
+    }
+    .reviews-form__btn .btn-blue{
+        padding: 12px 24px;
+    }
+    .reviews-form__btn .button-line{
+        padding: 10px 24px;
+    }
+    .pop-reviews__cnt {
+        flex-direction: column;
+        max-width: 1100px;
+        width: 100%;
+    }
+    .pop-reviews__right {
+        max-width: 100%;
+    }
+    .pop-reviews__share {
+        max-width: 400px;
+        margin-bottom: 30px;
+        position: relative;
+        top: 0;
+    }
+    .reviews-form__btn {
+        margin-top: 32px;
+        gap: 16px;
+    }
+
+}
+@media (max-width: 1199px){
+    .mark-name-car {
+        padding: 11px 16px;
+        gap: 14px;
+    }
+    .mark-name-car strong {
+        font-size: 16px;
+    }
+    .length-user__volks .pop-reviews-like small {
+        font-size: 16px;
+    }
+    .rev-fon-icon .pop-reviews-like {
+        padding: 8px 12px;
+    }
+    .rev-single__leng .length-user__volks .icon-slaq{
+        width: 20px;
+    }
+    .rev-single__leng .length-user__volks .icons {
+        font-size: 18px;
+    }
+    .ready-comments p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .comments__box .pop-reviews__name span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .comments__grade .pop-reviews-like small {
+        font-size: 16px;
+    }
+    .comments__grade {
+        margin-top: 30px;
+        gap: 24px;
+    }
+}
+@media (max-width: 1020px){
+
+    .pop-reviews__title strong {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .reviews-form__cnt .select-style {
+        max-width: 100%;
+        width: 100%;
+    }
+    .reviews-form__btn {
+        justify-content: center;
+    }
+    .length-revmax__box {
+        margin-top: 22px;
+        padding: 30px 20px;
+    }
+    .owners-from__flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .owners-from__sel{
+        max-width: 450px;
+        width: 100%;
+    }
+    .owners-from__data {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .owners-from__drop ul li {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .length-revmax__numb {
+        max-width: 50px;
+        height: 50px;
+        padding: 8px;
+        border: 2px solid var(--green);
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .length-revmax__cnt {
+        margin-top: 32px;
+    }
+    .length-user__name span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .length-user__name small {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .length-user__pic {
+        max-width: 44px;
+        height: 44px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .length-revmax__cnt>p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .length-user__volks .pop-reviews-like small {
+        font-size: 14px;
+    }
+    .length-user__volks .icons {
+        font-size: 18px;
+    }
+
+    .length-user__volks .pop-reviews__param {
+        gap: 16px;
+    }
+
+    .numb-col-yellow {
+        border: 2px solid var(--yellow);
+    }
+    .reviews-form__cnt {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .mark-name-car {
+        max-width: 100%;
+    }
+
+    .general-pros__text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .general-pros__cons {
+        margin-top: 32px;
+    }
+}
+@media (max-width: 991px){
+    .reviews-rating .rating-hyund__fl {
+        align-items: center;
+    }
+    .login-post__btn {
+        flex-wrap: wrap;
+    }
+    .reviews-assessment .assessment__box:nth-child(3) {
+        border-radius: 4px;
+    }
+    .reviews-assessment .assessment__box:nth-child(4) {
+        border-radius: 4px 4px 24px 24px;
+    }
+    .review-single-pages .length-revmax__box {
+        margin-top: 12px;
+        padding: 0;
+        border: unset;
+        box-shadow: unset;
+    }
+    .review-single-pages .length-revmax__picture {
+        margin-top: 20px;
+    }
+    .review-single-pages .rating-rezult {
+        max-width: 343px;
+        height: 80px;
+        border: 6px solid var(--blue-three);
+        border-radius: 110px;
+    }
+}
+@media (max-width: 760px){
+    .form-reviews-sale .list-car__wrap {
+        margin: 24px -8px 0;
+        flex-direction: row;
+    }
+    .form-reviews-sale .list-car__box {
+        width: 50%;
+        padding: 8px 8px;
+    }
+    .form-reviews-sale .list-car__info {
+        padding: 15px;
+        border-radius: 8px;
+    }
+    .form-reviews-sale .list-car__name img {
+        height: 28px;
+    }
+    .form-reviews-sale .list-car__name {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .form-reviews-sale .list-car__name span {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .list-car-rev__numb {
+        right: 16px;
+        top: 16px;
+        width: 26px;
+        height: 26px;
+        padding: 0;
+        font-size: 12px;
+    }
+    .reviews-form__btn {
+        flex-direction: column;
+    }
+    .reviews-form__btn button {
+        padding: 8px 24px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .reviews-form__btn .btn-blue{
+        padding: 8px 24px;
+
+    }
+    .reviews-form__btn .button-line{
+        padding: 6px 24px;
+
+    }
+    .pop-reviews-rel {
+        margin-top: 32px;
+        padding-bottom: 20px;
+    }
+    .pop-reviews__name span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .pop-reviews__title strong {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .pop-reviews__volk p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .pop-reviews-like {
+        gap: 6px;
+    }
+    .pop-reviews__box{
+        margin: 0 auto;
+    }
+    .length-revmax__picture {
+        height: 320px;
+    }
+    .length-revmax__picture img{
+        object-fit: cover;
+    }
+    .pop-reviews__share {
+        max-width: 360px;
+        margin-bottom: 30px;
+    }
+    .pop-reviews__share .btn-white {
+        padding: 12px 20px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .about-brands__cnt {
+        margin-top: 24px;
+        position: relative;
+    }
+    .owners-only__with a {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 8px;
+    }
+    .owners-from__data {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .owners-from__drop ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .owners-from__sel {
+        position: relative;
+    }
+    .owners-from__drop {
+        left: 0;
+    }
+    .length-revmax__name h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .revi-single__text p, .revi-single__text ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .length-revmax__name {
+        gap: 12px;
+    }
+    .length-user__volks {
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .length-user__name span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .form-reviews-sale .list-car__name img {
+        height: 19px;
+    }
+    .form-reviews-sale .list-car__info {
+        padding: 10px;
+    }
+    .other-rev-about__slider .pop-reviews__box {
+        max-width: 467px;
+    }
+    .for-all-comments {
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+@media (max-width: 570px){
+    .length-revmax__cnt>p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .length-revmax__picture {
+        height: 230px;
+    }
+    .form-reviews-sale .list-car__box {
+        padding: 4px 4px;
+    }
+    .form-reviews-sale .list-car__wrap {
+        margin: 24px -4px 0;
+    }
+    .form-reviews-sale .list-car__name span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .form-reviews-sale .list-car__name {
+        gap: 6px;
+    }
+    .list-car-rev__numb {
+        right: 8px;
+        top: 9px;
+        width: 23px;
+        height: 23px;
+        padding: 0;
+        font-size: 11px;
+    }
+    .reviews-form h2 {
+        margin-bottom: 32px;
+    }
+    .reviews-form {
+        padding: 24px 0;
+    }
+    .reviews-form .bread-caps-pages ul li + li:after {
+        content: '>';
+        color: var(--white);
+    }
+    .comments__grade .pop-reviews-like small {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .comments__box .pop-reviews__name span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .comments__box .pop-reviews__name p {
+        font-size: 16px;
+    }
+    .comments__grade .icons {
+        font-size: 20px;
+    }
+    .btn-lin-ok, .btn-lin-log {
+        width: 100%;
+    }
+    .login-post-review {
+        padding: 22px;
+        margin-top: 34px;
+    }
+    .for-all-comments {
+        margin-top: 60px;
+    }
+
+    .length-user__volks .pop-reviews__param {
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .review-single-pages .length-user__volks .pop-reviews-like small {
+        font-size: 16px;
+    }
+    .rev-single__leng .length-user__volks .icons {
+        font-size: 20px;
+    }
+    .review-single-pages  .rev-fon-icon .pop-reviews-like {
+        padding: 8px 12px;
+        width: 47%;
+        justify-content: center;
+    }
+    .review-single-pages  .rev-fon-icon .pop-reviews-like:last-child{
+        width: 100%;
+    }
+    .comments__box {
+        margin-top: 18px;
+    }
+    .btn-lin-ok, .btn-lin-log {
+        padding: 12px 17px;
+        font-size: 14px;
+    }
+    .login-post__btn {
+        gap: 16px;
+        margin-top: 15px;
+    }
+    .general-pros__text span {
+        max-width: 32px;
+        height: 32px;
+        padding: 6px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .general-pros__text {
+        gap: 16px;
+    }
+    .general-pros__text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+
+
+@media (max-width: 370px){
+    .length-user__volks .pop-reviews-like small {
+        font-size: 12px;
+    }
+}

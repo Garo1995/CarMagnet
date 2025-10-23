@@ -1,0 +1,2283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>АвтоМагнат</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header__main">
+            <div class="open-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__cnt">
+                <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="catalog__menu">
+                    <ul>
+                        <li><a href="#" class="open-catalog">Каталог </a></li>
+                        <li><a href="#">Услуги </a></li>
+                        <li><a href="#">О компании</a>
+                            <ul class="submenu">
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__fl">
+                <div class="header__menu">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="header__location">
+                    <i class="icons icon-location"></i>
+                    <span>Москва</span>
+                </a>
+
+                <button  data-val="modal" class="open_modal btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="menu__fix">
+        <div class="container">
+            <div class="menu-fix__block">
+                <div class="menu-fix__href">
+                    <a href="#" class="menu-fix__name">Каталог автомобилей</a>
+                    <ul>
+                        <li><a href="#" class="cars-stock__act">Автомобили в наличии</a></li>
+                        <li><a href="#">С пробегом</a></li>
+                        <li><a href="#">Выкуп автомобиля</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                        <li><a href="#">Предложения дня</a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Новые мотоцикли</a></li>
+                        <li><a href="#">Мото с пробегом</a></li>
+                        <li><a href="#">Запчасти</a></li>
+                    </ul>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по типу кузова</h4>
+                    <div class="menu-fix__wrap">
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car1.png" alt="car">
+                            <span>Кроссовер</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car2.png" alt="car">
+                            <span>Седан</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car3.png" alt="car">
+                            <span>Внедорожник</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car4.png" alt="car">
+                            <span>Универсал</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car5.png" alt="car">
+                            <span>Хэтчбек</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car6.png" alt="car">
+                            <span>Пик Ап</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car7.png" alt="car">
+                            <span>Минивен</span>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Обзор по маркам</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по образу жизни</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle1.svg" alt="logo">
+                            <p>
+                                Семейные
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle2.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1.5 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle3.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="mod-range__main">
+    <div class="container">
+
+        <div class="mod-range__fon">
+            <div class="mod-range__photo">
+                <img src="./assets/img/banner.jpg" alt="">
+            </div>
+            <div class="glob-form-style">
+                <div class="glob-form__title">
+                    <strong>Оставьте заявку сейчас</strong>
+                    <span>Успейте получить скидку</span>
+                </div>
+                <form>
+                    <div class="modal-inp">
+                        <label>
+                            <input type="text" placeholder="Ваше имя">
+                        </label>
+                    </div>
+                    <div class="modal-inp modal-inp__err">
+                        <label>
+                            <input type="text" placeholder="+7 999 999 99 99" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}"
+                                   class="phone">
+                        </label>
+                    </div>
+                    <button class="btn-blue ">Получить предложение</button>
+                    <div class="checkmark-cnt">
+                        <label>
+                            <input type="checkbox" checked="">
+                            <span class="checkmark"></span>
+                            <small>Согласен на обработку</small>
+                            <a href="#">персональных данных</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="mod-range__info">
+                <img src="./assets/img/honda.png" alt="logo">
+                <h1>Модельный ряд Hyundai </h1>
+                <h4>Специальные цены на все модели до 20 декабря </h4>
+                <div class="mod-range__btn">
+                    <a href="#" class="range-btn"><span>Кредит</span><i class="icons icon-tok"></i></a>
+                    <a href="#" class="range-btn"><span>Trade-in</span><i class="icons icon-arrows"></i></a>
+                    <a href="#" class="range-btn"><span>Конфигуратор</span><i class="icons icon-filter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="special-offers__title">
+            <h2>Новые автомобили hyondai</h2>
+            <a href="#" class="btn-black">Новые автомобили hyondai</a>
+        </div>
+        <div class="new-car__menu">
+            <ul>
+                <li><a href="#">Все</a></li>
+                <li class="new-car__act"><a href="#">Хеч-бек</a></li>
+                <li><a href="#">Седан</a></li>
+                <li><a href="#">Внедорожник</a></li>
+                <li><a href="#">Мини вен</a></li>
+            </ul>
+        </div>
+        <div class="special-offers__block">
+            <div class="special-offers__box">
+                <div class="special-offers__photo">
+                    <img src="./assets/img/special1.jpg" alt="car">
+                </div>
+                <div class="special-offers__cnt">
+                    <div class="special-offers__info">
+                        <div class="special-offers__yarlik">
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <div class="special-offers__discount">
+                                <i class="icon-yarlik"></i>
+                                <span>Скидка до 20.12.2021</span>
+                            </div>
+                        </div>
+                        <div class="special-offers__item">
+                            <h5>Hyunday Creta </h5>
+                            <div class="special-offers__price">
+                                <h5>939 000 ₽</h5>
+                                <small>39 000 ₽ / мес</small>
+                            </div>
+                            <div class="special-offers__btn">
+                                <button class="btn-liner">Купить в кредит</button>
+                                <button class="btn-liner">Trade in</button>
+                                <button class="btn-blue">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special-offers__table">
+                        <ul>
+                            <li><p>Комплектация</p><span>Active</span></li>
+                            <li><p>Цвет</p><span>Белый</span></li>
+                            <li><p>КПП</p><span>6 АТ</span></li>
+                            <li><p>Двигатель</p><span>1.6 л</span></li>
+                            <li><p>Привод</p><span>2 WD </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="special-offers__box">
+                <div class="special-offers__photo">
+                    <img src="./assets/img/special2.jpg" alt="car">
+                </div>
+                <div class="special-offers__cnt">
+                    <div class="special-offers__info">
+                        <div class="special-offers__yarlik">
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <div class="special-offers__discount">
+                                <i class="icon-yarlik"></i>
+                                <span>Скидка до 20.12.2021</span>
+                            </div>
+                        </div>
+                        <div class="special-offers__item">
+                            <h5>Hyunday Creta </h5>
+                            <div class="special-offers__price">
+                                <h5>939 000 ₽</h5>
+                                <small>39 000 ₽ / мес</small>
+                            </div>
+                            <div class="special-offers__btn">
+                                <button class="btn-liner">Купить в кредит</button>
+                                <button class="btn-liner">Trade in</button>
+                                <button class="btn-blue">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special-offers__table">
+                        <ul>
+                            <li><p>Комплектация</p><span>Active</span></li>
+                            <li><p>Цвет</p><span>Белый</span></li>
+                            <li><p>КПП</p><span>6 АТ</span></li>
+                            <li><p>Двигатель</p><span>1.6 л</span></li>
+                            <li><p>Привод</p><span>2 WD </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="special-offers__box">
+                <div class="special-offers__photo">
+                    <img src="./assets/img/special3.jpg" alt="car">
+                </div>
+                <div class="special-offers__cnt">
+                    <div class="special-offers__info">
+                        <div class="special-offers__yarlik">
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <div class="special-offers__discount">
+                                <i class="icon-yarlik"></i>
+                                <span>Скидка до 20.12.2021</span>
+                            </div>
+                        </div>
+                        <div class="special-offers__item">
+                            <h5>Hyunday Creta </h5>
+                            <div class="special-offers__price">
+                                <h5>939 000 ₽</h5>
+                                <small>39 000 ₽ / мес</small>
+                            </div>
+                            <div class="special-offers__btn">
+                                <button class="btn-liner">Купить в кредит</button>
+                                <button class="btn-liner">Trade in</button>
+                                <button class="btn-blue">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special-offers__table">
+                        <ul>
+                            <li><p>Комплектация</p><span>Active</span></li>
+                            <li><p>Цвет</p><span>Белый</span></li>
+                            <li><p>КПП</p><span>6 АТ</span></li>
+                            <li><p>Двигатель</p><span>1.6 л</span></li>
+                            <li><p>Привод</p><span>2 WD </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="special-offers__box">
+                <div class="special-offers__photo">
+                    <img src="./assets/img/special4.jpg" alt="car">
+                </div>
+                <div class="special-offers__cnt">
+                    <div class="special-offers__info">
+                        <div class="special-offers__yarlik">
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <span class="offers__yarlik">Кредит от 3.5 %</span>
+                            <div class="special-offers__discount">
+                                <i class="icon-yarlik"></i>
+                                <span>Скидка до 20.12.2021</span>
+                            </div>
+                        </div>
+                        <div class="special-offers__item">
+                            <h5>Hyunday Creta </h5>
+                            <div class="special-offers__price">
+                                <h5>939 000 ₽</h5>
+                                <small>39 000 ₽ / мес</small>
+                            </div>
+                            <div class="special-offers__btn">
+                                <button class="btn-liner">Купить в кредит</button>
+                                <button class="btn-liner">Trade in</button>
+                                <button class="btn-blue">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special-offers__table">
+                        <ul>
+                            <li><p>Комплектация</p><span>Active</span></li>
+                            <li><p>Цвет</p><span>Белый</span></li>
+                            <li><p>КПП</p><span>6 АТ</span></li>
+                            <li><p>Двигатель</p><span>1.6 л</span></li>
+                            <li><p>Привод</p><span>2 WD </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="special-offers__rel">
+            <div class="swiper special-offers__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="special-offers__box">
+                            <div class="special-offers__photo">
+                                <img src="./assets/img/special1.jpg" alt="car">
+                            </div>
+                            <div class="special-offers__cnt">
+                                <div class="special-offers__info">
+                                    <div class="special-offers__yarlik">
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <div class="special-offers__discount">
+                                            <i class="icon-yarlik"></i>
+                                            <span>Скидка до 20.12.2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="special-offers__item">
+                                        <h5>Hyunday Creta </h5>
+                                        <div class="special-offers__price">
+                                            <h5>939 000 ₽</h5>
+                                            <small>39 000 ₽ / мес</small>
+                                        </div>
+                                        <div class="special-offers__btn">
+                                            <button class="btn-liner">Купить в кредит</button>
+                                            <button class="btn-liner">Trade in</button>
+                                            <button class="btn-blue">Забронировать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="special-offers__table">
+                                    <ul>
+                                        <li><p>Комплектация</p><span>Active</span></li>
+                                        <li><p>Цвет</p><span>Белый</span></li>
+                                        <li><p>КПП</p><span>6 АТ</span></li>
+                                        <li><p>Двигатель</p><span>1.6 л</span></li>
+                                        <li><p>Привод</p><span>2 WD </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers__box">
+                            <div class="special-offers__photo">
+                                <img src="./assets/img/special2.jpg" alt="car">
+                            </div>
+                            <div class="special-offers__cnt">
+                                <div class="special-offers__info">
+                                    <div class="special-offers__yarlik">
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <div class="special-offers__discount">
+                                            <i class="icon-yarlik"></i>
+                                            <span>Скидка до 20.12.2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="special-offers__item">
+                                        <h5>Hyunday Creta </h5>
+                                        <div class="special-offers__price">
+                                            <h5>939 000 ₽</h5>
+                                            <small>39 000 ₽ / мес</small>
+                                        </div>
+                                        <div class="special-offers__btn">
+                                            <button class="btn-liner">Купить в кредит</button>
+                                            <button class="btn-liner">Trade in</button>
+                                            <button class="btn-blue">Забронировать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="special-offers__table">
+                                    <ul>
+                                        <li><p>Комплектация</p><span>Active</span></li>
+                                        <li><p>Цвет</p><span>Белый</span></li>
+                                        <li><p>КПП</p><span>6 АТ</span></li>
+                                        <li><p>Двигатель</p><span>1.6 л</span></li>
+                                        <li><p>Привод</p><span>2 WD </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers__box">
+                            <div class="special-offers__photo">
+                                <img src="./assets/img/special3.jpg" alt="car">
+                            </div>
+                            <div class="special-offers__cnt">
+                                <div class="special-offers__info">
+                                    <div class="special-offers__yarlik">
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <div class="special-offers__discount">
+                                            <i class="icon-yarlik"></i>
+                                            <span>Скидка до 20.12.2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="special-offers__item">
+                                        <h5>Hyunday Creta </h5>
+                                        <div class="special-offers__price">
+                                            <h5>939 000 ₽</h5>
+                                            <small>39 000 ₽ / мес</small>
+                                        </div>
+                                        <div class="special-offers__btn">
+                                            <button class="btn-liner">Купить в кредит</button>
+                                            <button class="btn-liner">Trade in</button>
+                                            <button class="btn-blue">Забронировать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="special-offers__table">
+                                    <ul>
+                                        <li><p>Комплектация</p><span>Active</span></li>
+                                        <li><p>Цвет</p><span>Белый</span></li>
+                                        <li><p>КПП</p><span>6 АТ</span></li>
+                                        <li><p>Двигатель</p><span>1.6 л</span></li>
+                                        <li><p>Привод</p><span>2 WD </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers__box">
+                            <div class="special-offers__photo">
+                                <img src="./assets/img/special4.jpg" alt="car">
+                            </div>
+                            <div class="special-offers__cnt">
+                                <div class="special-offers__info">
+                                    <div class="special-offers__yarlik">
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <span class="offers__yarlik">Кредит от 3.5 %</span>
+                                        <div class="special-offers__discount">
+                                            <i class="icon-yarlik"></i>
+                                            <span>Скидка до 20.12.2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="special-offers__item">
+                                        <h5>Hyunday Creta </h5>
+                                        <div class="special-offers__price">
+                                            <h5>939 000 ₽</h5>
+                                            <small>39 000 ₽ / мес</small>
+                                        </div>
+                                        <div class="special-offers__btn">
+                                            <button class="btn-liner">Купить в кредит</button>
+                                            <button class="btn-liner">Trade in</button>
+                                            <button class="btn-blue">Забронировать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="special-offers__table">
+                                    <ul>
+                                        <li><p>Комплектация</p><span>Active</span></li>
+                                        <li><p>Цвет</p><span>Белый</span></li>
+                                        <li><p>КПП</p><span>6 АТ</span></li>
+                                        <li><p>Двигатель</p><span>1.6 л</span></li>
+                                        <li><p>Привод</p><span>2 WD </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="special-pagination swiper-pagination"></div>
+            <a href="#" class="btn-black">Все спецпредложения на Hyundai</a>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="dars-sale-cnt">
+            <div class="dars-sale__title">
+                <h2>Автомобили с пробегом</h2>
+                <span>1336 с пробегом</span>
+            </div>
+            <a href="#" class="btn-black">Загрузить еще</a>
+        </div>
+        <div class="dars-sale__flex">
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars2.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mazda CX-5</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars3.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mitsubishi Lancer-X</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars2.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mazda CX-5</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars3.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mitsubishi Lancer-X</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-btn-mob">
+            <a href="#" class="btn-black">Показать больше</a>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="services__fon sec-marg-glob">
+    <div class="container">
+        <div class="services__cnt">
+            <h2>Наши услуги</h2>
+            <div class="services__flex">
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/serv1.svg" alt="icon">
+                        </div>
+                        <span>Рассчитать кредит</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/serv2.svg" alt="icon">
+                        </div>
+                        <span>Продать или обменять свой автомобиль</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/serv3.svg" alt="icon">
+                        </div>
+                        <span>Пройти тест - драйв</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/serv4.svg" alt="icon">
+                        </div>
+                        <span>Получить страховку</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/serv5.svg" alt="icon">
+                        </div>
+                        <span>Записаться на сервис</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="dars-sale-cnt">
+            <div class="dars-sale__title">
+                <h2>Лучшие предложения</h2>
+            </div>
+            <a href="#" class="btn-black">Загрузить еще</a>
+        </div>
+        <div class="dars-sale__flex">
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars2.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mazda CX-5</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars3.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mitsubishi Lancer-X</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽ </del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="product-btn-mob">
+            <a href="#" class="btn-black">Показать больше</a>
+        </div>
+    </div>
+</section>
+
+<section class="car-selection sec-marg-glob">
+    <div class="container">
+        <div class="car-selection__cnt selection-sing">
+            <div class="car-selection__title">
+                <img src="./assets/img/icon/search.svg" alt="icon">
+                <h3>Подбор Hyundai по параметрам</h3>
+            </div>
+            <div class="car-selection__info">
+                <div class="car-selection__inp">
+                    <label>
+                        <input type="text" placeholder="Цена от">
+                    </label>
+                </div>
+                <div class="car-selection__inp">
+                    <label>
+                        <input type="text" placeholder="Цена до">
+                    </label>
+                </div>
+                <div class="select-style select-brand">
+                    <label>
+                        <select class="js-example-basic-single" name="state">
+                            <option value="Тип кузова">Тип кузова</option>
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Hyundai">Hyundai</option>
+                            <option value="Jeep">Jeep</option>
+                            <option value="Mercedes-Benz">Mercedes-Benz</option>
+                            <option value="Land Rover">Land Rover</option>
+                            <option value="Lexus">Lexus</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="select-style select-models">
+                    <label>
+                        <select class="js-example-basic-single" name="state">
+                            <option value="model">Привод</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="param-ection">
+                    <span class="param-ection__click">Любая КПП</span>
+                    <span class="param-ection__click param-ection__act">АКПП</span>
+                    <span class="param-ection__click">МКПП</span>
+                </div>
+            </div>
+            <div class="none-parameters">
+                <div class="parameters__block">
+                    <div class="select-style">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="">Текст</option>
+                                <option value="">Текст 2</option>
+                                <option value="">Текст 3</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="car-selection__inp">
+                        <label>
+                            <input type="text" placeholder="Текст">
+                        </label>
+                    </div>
+                    <div class="car-selection__inp">
+                        <label>
+                            <input type="text" placeholder="Текст">
+                        </label>
+                    </div>
+                    <div class="select-style">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="">Текст</option>
+                                <option value="">Текст 2</option>
+                                <option value="">Текст 3</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <h4>Подзаголовок</h4>
+                <div class="parameters__block">
+                    <div class="select-style select__text">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="">Текст</option>
+                                <option value="">Текст 2</option>
+                                <option value="">Текст 3</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="car-selection__inp">
+                        <label>
+                            <input type="text" placeholder="Текст">
+                        </label>
+                    </div>
+                    <div class="car-selection__inp">
+                        <label>
+                            <input type="text" placeholder="Текст">
+                        </label>
+                    </div>
+                    <div class="select-style select__text">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="">Текст</option>
+                                <option value="">Текст 2</option>
+                                <option value="">Текст 3</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="parameters-form__btn">
+                <button class="show-all-offers">Показать 124 предложения</button>
+
+                <button class="all-parameters parameters-style__btn">
+                    <i class="icons icon-filter"></i>
+                    <span>Все параметры</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="stock-car__title">
+            <h2>Автомобили в наличии</h2>
+            <div class="stock-car__flex">
+                <div class="stock-car__more">
+                    <div class="stock-min-text-hrefs">
+                        <ul class="car-selection__qwe sel-bg-gray">
+                            <li class="stock-reviews" data-catalog="auto-logo-two">
+                                <div class="selection-click">
+                                    <span>Новые авто</span>
+                                </div>
+                            </li>
+                            <li class="stock-reviews stock-href" data-catalog="auto-logo-one">
+                                <div class="selection-click selection-click__act">
+                                    <i class="ptich"></i> <span>С пробегом</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="stock-button-prev swiper-button-prev"></div>
+                <div class="stock-button-next swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="stock-min-info">
+            <div class="reviews-min-js"  data-catalog="auto-logo-two">
+                <div class="stock-car__cnt">
+                    <div class="swiper stock-car__slider">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car4.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>619 авто</small>
+                                        <span>BMW</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car5.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>3 авто</small>
+                                        <span>Cadillac</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car1.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>4 авто</small>
+                                        <span>AURUS</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car2.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>2 авто</small>
+                                        <span>Aston Martin</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car3.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>300 авто</small>
+                                        <span>Audi</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car6.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>268 авто</small>
+                                        <span>Chevrolet</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car7.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>8 авто</small>
+                                        <span>Citroen</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car8.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>218 авто</small>
+                                        <span>Genesis</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car8.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>218 авто</small>
+                                        <span>Genesis</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stock-car-pagination swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="reviews-min-js" data-catalog="auto-logo-one">
+                <div class="stock-car__cnt">
+                    <div class="swiper stock-car__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car1.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>4 авто</small>
+                                        <span>AURUS</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car2.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>2 авто</small>
+                                        <span>Aston Martin</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car3.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>300 авто</small>
+                                        <span>Audi</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car4.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>619 авто</small>
+                                        <span>BMW</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car5.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>3 авто</small>
+                                        <span>Cadillac</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car6.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>268 авто</small>
+                                        <span>Chevrolet</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car7.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>8 авто</small>
+                                        <span>Citroen</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car8.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>218 авто</small>
+                                        <span>Genesis</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="stock-car__info">
+                                    <div class="stock-car__logo">
+                                        <img src="./assets/img/logo-car8.png" alt="logo">
+                                    </div>
+                                    <div class="stock-car__name">
+                                        <small>218 авто</small>
+                                        <span>Genesis</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stock-car-pagination swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="assessment__wrap">
+            <div class="assessment__box" style="background-image: url('./assets/img/asinf1.png')">
+                <h3>Подбери авто мечты</h3>
+                <span>от 5 990 ₽</span>
+            </div>
+            <div class="assessment__box" style="background-image: url('./assets/img/asinf2.png')">
+                <h3>Бесплатная онлайн оценка Вашего авто</h3>
+            </div>
+            <div class="assessment__box" style="background-image: url('./assets/img/asinf3.png')">
+                <h3>Подбор кредита</h3>
+                <div class="assessment__text">
+                    <p><b>Сумма</b> до 6 000 000 ₽ </p>
+                    <p><b>Ставка</b> от 5,5% <b>Срок</b> до 84 мес</p>
+                </div>
+            </div>
+            <div class="assessment__box" style="background-image: url('./assets/img/asinf4.png')">
+                <h3>Авто в Trade - in</h3>
+                <span>со скидкой 150 000 ₽</span>
+            </div>
+            <div class="assessment__box" style="background-image: url('./assets/img/asinf5.png')">
+                <h3>Скидка 10% на оформление КАСКО</h3>
+            </div>
+            <div class="assessment__box" style="background-image: url('./assets/img/asinf6.png')">
+                <h3>Продать авто</h3>
+                <span>Дополнительная выгода до 150 000 ₽</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="questions__flex">
+            <div class="questions__picture">
+                <img src="./assets/img/qas.jpg" class="qas-desc" alt="image">
+                <img src="./assets/img/qas2.png" class="qas-mob" alt="image">
+            </div>
+            <div class="questions__cnt">
+                <h2>Есть вопросы? Мы свяжемся с Вами!</h2>
+                <p>
+                    Заполните необходимые поля, и наши менеджеры свяжутся с Вами в течение 15 минут!
+                </p>
+                <form>
+                    <div class="questions__form">
+                        <div class="questions__inp">
+                            <label>
+                                <input type="text" placeholder="Ваше имя">
+                            </label>
+                        </div>
+                        <div class="questions__inp">
+                            <label>
+                                <input type="text" placeholder="Ваш номер телефона" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}"
+                                       class="phone">
+                            </label>
+                        </div>
+                        <div class="select-style select-qas">
+                            <label>
+                                <select class="js-example-basic-single" name="state">
+                                    <option value="model">Дилерский центр</option>
+                                    <option value="model">Дилерский центр2</option>
+                                    <option value="model">Дилерский центр3</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="questions__btn">
+                        <button class="btn-white">Отправить</button>
+                        <div class="checkmark-cnt">
+                            <label>
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                                <small>Согласен на обработку</small>
+                                <a href="#">персональных данных</a>
+                            </label>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="dars-sale-cnt">
+            <div class="dars-sale__title">
+                <h2>Сняты с производства</h2>
+            </div>
+            <a href="#" class="btn-black">Загрузить еще</a>
+        </div>
+        <div class="outProduction">
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod1.png" alt="image">
+                    <span>Solaris</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod2.png" alt="image">
+                    <span>Solaris</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod3.png" alt="image">
+                    <span>I 30</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod4.png" alt="image">
+                    <span>Creta</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod1.png" alt="image">
+                    <span>Solaris</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod2.png" alt="image">
+                    <span>Solaris</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod3.png" alt="image">
+                    <span>I 30</span>
+                </a>
+            </div>
+            <div class="outProduction__box">
+                <a href="#" class="outProduction__pic">
+                    <img src="./assets/img/prod4.png" alt="image">
+                    <span>Creta</span>
+                </a>
+            </div>
+        </div>
+        <div class="product-btn-mob">
+            <a href="#" class="btn-black">Загрузить еще</a>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="offer-day__flex">
+            <div class="offer-day__photo">
+                <img src="./assets/img/offer.jpg" alt="image">
+            </div>
+            <div class="offer-day__info">
+                <h2>Предложение дня</h2>
+                <div class="offer-day__price">
+                    <h4>Hyundai Accent</h4>
+                    <h5>1 349 000 ₽ </h5>
+                    <del>1 867 000 ₽ </del>
+                </div>
+                <button class="btn-white">Подробнее</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="rating-hyund__fon sec-marg-glob">
+    <div class="container">
+        <div class="rating-hyund">
+            <h2>Рейтинг автомобилей Hyundai</h2>
+            <div class="rating-hyund__fl">
+                <div class="rating-rezult rating-rezult-style-mob">
+                    <img src="./assets/img/icon/imageh.png" alt="logo">
+                    <span>4.6 %</span>
+                </div>
+                <div class="rating-hyund__block">
+                    <div class="rating-hyund__box">
+                        <div class="rating-hyund__cnt">
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green" style="width:46%;"></div>
+                            </div>
+                        </div>
+                        <div class="rating-yech">
+                            <p>Комфорт</p>
+                            <span>4.6</span>
+                        </div>
+                    </div>
+                    <div class="rating-hyund__box">
+                        <div class="rating-hyund__cnt">
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green" style="width:46%;"></div>
+                            </div>
+                        </div>
+                        <div class="rating-yech">
+                            <p>Надежность</p>
+                            <span>4.7</span>
+                        </div>
+                    </div>
+                    <div class="rating-hyund__box">
+                        <div class="rating-hyund__cnt">
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green" style="width:46%;"></div>
+                            </div>
+                        </div>
+                        <div class="rating-yech">
+                            <p>Безопасность</p>
+                            <span>4.4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-hyund__block anuter-marg">
+                    <div class="rating-hyund__box">
+                        <div class="rating-hyund__cnt">
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green" style="width:46%;"></div>
+                            </div>
+                        </div>
+                        <div class="rating-yech">
+                            <p>Ходовые качества</p>
+                            <span>4.6</span>
+                        </div>
+                    </div>
+                    <div class="rating-hyund__box">
+                        <div class="rating-hyund__cnt">
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green" style="width:46%;"></div>
+                            </div>
+                        </div>
+                        <div class="rating-yech">
+                            <p>Технологичность</p>
+                            <span>4.3</span>
+                        </div>
+                    </div>
+                    <div class="rating-hyund__box">
+                        <div class="rating-hyund__cnt">
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green"></div>
+                            </div>
+                            <div class="rating-count-size">
+                                <div class="bg-green" style="width:46%;"></div>
+                            </div>
+                        </div>
+                        <div class="rating-yech">
+                            <p>Экономичность</p>
+                            <span>4.2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-margin">
+    <div class="container">
+        <div class="news-block">
+            <h2>Новинки в <img src="./assets/img/log.png" alt="logo"></h2>
+            <div class="bestsellers__btn">
+                <div class="magnit-button-prev swiper-button-prev"></div>
+                <div class="magnit-button-next swiper-button-next"></div>
+                <a href="#" class="btn-black">Все новости</a>
+            </div>
+        </div>
+        <div class="magnit__cnt">
+            <div class="swiper magnit__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="magnit__info">
+                            <img src="./assets/img/new1.jpg" alt="image">
+                            <div class="magnit__name">
+                                <span>Subaru Forester</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="magnit__info">
+                            <img src="./assets/img/new2.jpg" alt="image">
+                            <div class="magnit__name">
+                                <span>CHERYFEED TXL</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="magnit__info">
+                            <img src="./assets/img/new3.jpg" alt="image">
+                            <div class="magnit__name">
+                                <span>Porsche Taycan Sport Turismo</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="magnit__info">
+                            <img src="./assets/img/new4.jpg" alt="image">
+                            <div class="magnit__name">
+                                <span>KIA Ceed</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="magnit__info">
+                            <img src="./assets/img/new4.jpg" alt="image">
+                            <div class="magnit__name">
+                                <span>KIA Ceed</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="magnit-pagination swiper-pagination"></div>
+            <div class="product-btn-mob">
+                <a href="#" class="btn-black">Все новости</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="satisfied__fon sec-marg-glob satisfied__single">
+    <div class="container">
+        <div class="satisfied__title">
+            <h2>Отзывы довольных клиентов</h2>
+            <div class="satisfied__btn">
+                <div class="satisfied-button-prev swiper-button-prev"></div>
+                <div class="satisfied-button-next swiper-button-next"></div>
+                <a href="#" class="btn-blue">Все отзывы</a>
+            </div>
+        </div>
+        <div class="satisfied__cnt">
+            <div class="swiper satisfied__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="satisfied__info">
+                            <div class="satisfied__user">
+                                <img src="./assets/img/user1.png" alt="image">
+                                <div class="satisfied__name">
+                                    <span>Святослав Воробейников</span>
+                                    <small>19.01.2020</small>
+                                </div>
+                            </div>
+                            <p>
+                                Благодарен данному салону за отличную работу! Авто подбирал достаточно долго, ведь ассортимент богатый, но менеджеры очень грамотные и помогли мне определится. Приятно, что можно выбрать из разных комплектаций, вдобавок еще и зимнюю резину подарили.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="satisfied__info">
+                            <div class="satisfied__user">
+                                <img src="./assets/img/user2.png" alt="image">
+                                <div class="satisfied__name">
+                                    <span>Марианна Александрова</span>
+                                    <small>13.05.2021</small>
+                                </div>
+                            </div>
+                            <p>
+                                Авто подбирал достаточно долго, ведь ассортимент богатый, но менеджеры очень грамотные и помогли мне определится. Приятно, что можно выбрать из разных комплектаций, вдобавок еще и зимнюю резину подарили.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="satisfied__info">
+                            <div class="satisfied__user">
+                                <img src="./assets/img/user1.png" alt="image">
+                                <div class="satisfied__name">
+                                    <span>Святослав Воробейников</span>
+                                    <small>19.01.2020</small>
+                                </div>
+                            </div>
+                            <p>
+                                Благодарен данному салону за отличную работу! Авто подбирал достаточно долго, ведь ассортимент богатый, но менеджеры очень грамотные и помогли мне определится. Приятно, что можно выбрать из разных комплектаций, вдобавок еще и зимнюю резину подарили.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="satisfied__info">
+                            <div class="satisfied__user">
+                                <img src="./assets/img/user2.png" alt="image">
+                                <div class="satisfied__name">
+                                    <span>Марианна Александрова</span>
+                                    <small>13.05.2021</small>
+                                </div>
+                            </div>
+                            <p>
+                                Авто подбирал достаточно долго, ведь ассортимент богатый, но менеджеры очень грамотные и помогли мне определится. Приятно, что можно выбрать из разных комплектаций, вдобавок еще и зимнюю резину подарили.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="satisfied__info">
+                            <div class="satisfied__user">
+                                <img src="./assets/img/user2.png" alt="image">
+                                <div class="satisfied__name">
+                                    <span>Марианна Александрова</span>
+                                    <small>13.05.2021</small>
+                                </div>
+                            </div>
+                            <p>
+                                Авто подбирал достаточно долго, ведь ассортимент богатый, но менеджеры очень грамотные и помогли мне определится. Приятно, что можно выбрать из разных комплектаций, вдобавок еще и зимнюю резину подарили.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="satisfied-pagination swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="opportunities__fon">
+        <div class="container">
+            <div class="opportunities__flex">
+                <div class="opportunities__info">
+                    <div class="opportunities__logo">
+                        <img src="./assets/img/honda.png" alt="image">
+                        <img src="./assets/img/hyundai.png" alt="image">
+                    </div>
+                    <h2>«Новое мышление. Новые возможности»</h2>
+                </div>
+                <div class="opportunities__photo">
+                    <img src="./assets/img/opport.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="official-dealer">
+            <h2>Новый модельный ряд Hyondai 2023 у официального дилера в Москве</h2>
+            <div class="official-dealer__block">
+                <p>
+                    Производитель KIA известна своим качеством, надежностью и инновационными технологиями. Благодаря постоянному совершенствованию и стремлению к инновациям, KIA создает автомобили, которые не только удовлетворяют потребности современных автолюбителей, но и превосходят их ожидания.
+                </p>
+                <strong>Новый модельный ряд Hyondai 2023 у официального дилера в Москве</strong>
+                <ul>
+                    <li>KIA Sportage. Внедорожник, который сочетает в себе комфорт, надежность и высокую проходимость.</li>
+                    <li>
+                        KIA Carnival. Многоместный минивэн с просторным салоном и возможностью перевозить до 8 человек пассажиров. Интерьер отличается высококачественными материалами, сборка разнообразием технологических функций.
+                    </li>
+                    <li>
+                        KIA Sorento. Просторный семейный автомобиль, обладающий высоким уровнем безопасности и комфорта. Отлично подойдет для дальних путешествий.
+                    </li>
+                    <li>
+                        KIA K5. Седан среднего класса с комфортабельным салоном для городских поездок, различными функциями безопасности, системой контроля слепых зон и помощи при парковке.
+                    </li>
+                    <li>
+                        KIA Cerato. Компактный и экономичный седан, с современными функциями мультимедиа, безопасности.
+                    </li>
+                </ul>
+                <strong>Купить Hyondai в Москве у надежного дилера</strong>
+                <p>
+                    Производитель KIA известна своим качеством, надежностью и инновационными технологиями. Благодаря постоянному совершенствованию и стремлению к инновациям, KIA создает автомобили, которые не только удовлетворяют потребности современных автолюбителей, но и превосходят их ожидания.
+                </p>
+            </div>
+            <button class="btn-blue collapse-click"><span>Свернуть</span></button>
+        </div>
+    </div>
+</section>
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="frequently__main">
+            <h2>Популярные категории комплектаций</h2>
+            <div class="accordion__block accordion" id="accordion">
+                <div class="accordion__cnt">
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Класс</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text">
+                                <ul>
+                                    <li>Автомобили с тремя рядами сидений</li>
+                                    <li>Восьмиместные автомобили</li>
+                                    <li>Семиместные автомобили</li>
+                                    <li>Шестиместные автомобили</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Количество мест</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text">
+                                <ul>
+                                    <li>Автомобили с тремя рядами сидений</li>
+                                    <li>Восьмиместные автомобили</li>
+                                    <li>Семиместные автомобили</li>
+                                    <li>Шестиместные автомобили</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>KIA Rio со спортивным характером, динамичными линиями кузова?</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text">
+                                <ul>
+                                    <li>Автомобили с тремя рядами сидений</li>
+                                    <li>Восьмиместные автомобили</li>
+                                    <li>Семиместные автомобили</li>
+                                    <li>Шестиместные автомобили</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="accordion__cnt">
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Коробка передач</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text">
+                                <ul>
+                                    <li>Автомобили с тремя рядами сидений</li>
+                                    <li>Восьмиместные автомобили</li>
+                                    <li>Семиместные автомобили</li>
+                                    <li>Шестиместные автомобили</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Страна</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text">
+                                <ul>
+                                    <li>Автомобили с тремя рядами сидений</li>
+                                    <li>Восьмиместные автомобили</li>
+                                    <li>Семиместные автомобили</li>
+                                    <li>Шестиместные автомобили</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Тип топлива</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text">
+                                <ul>
+                                    <li>Автомобили с тремя рядами сидений</li>
+                                    <li>Восьмиместные автомобили</li>
+                                    <li>Семиместные автомобили</li>
+                                    <li>Шестиместные автомобили</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sec-marg-glob">
+    <div class="container">
+        <div class="news-block">
+            <h2>Новости</h2>
+            <div class="bestsellers__btn">
+                <div class="news-button-prev swiper-button-prev"></div>
+                <div class="news-button-next swiper-button-next"></div>
+                <a href="#" class="btn-black">Все новости</a>
+            </div>
+        </div>
+        <div class="news-block__cnt">
+            <div class="swiper news-block__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="news-block__info">
+                            <img src="./assets/img/new-car1.jpg" alt="image">
+                            <div class="news-block__name">
+                                <strong>Соперник Toyota RAV4 от Ford выехал на дороги в новом дизайне (фото)</strong>
+                                <p>25.11.2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-block__info">
+                            <img src="./assets/img/new-car2.jpg" alt="image">
+                            <div class="news-block__name">
+                                <strong>Самый необычный автомобиль Tatra получил кузов из цветного ламината
+                                </strong>
+                                <p>25.11.2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-block__info">
+                            <img src="./assets/img/new-car3.jpg" alt="image">
+                            <div class="news-block__name">
+                                <strong>WRC: Лебединая песня бензиновой эры на «Ралли Монце». Что дальше?</strong>
+                                <p>25.11.2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-block__info">
+                            <img src="./assets/img/new-car4.jpg" alt="image">
+                            <div class="news-block__name">
+                                <strong>Renault и Google презентовали проекты по декарбонизации автопроизводства</strong>
+                                <p>25.11.2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-block__info">
+                            <img src="./assets/img/new-car1.jpg" alt="image">
+                            <div class="news-block__name">
+                                <strong>Соперник Toyota RAV4 от Ford выехал на дороги в новом дизайне (фото)
+                                </strong>
+                                <p>25.11.2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-block__info">
+                            <img src="./assets/img/new-car1.jpg" alt="image">
+                            <div class="news-block__name">
+                                <strong>Соперник Toyota RAV4 от Ford выехал на дороги в новом дизайне (фото)
+                                </strong>
+                                <p>25.11.2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-pagination swiper-pagination"></div>
+            <div class="product-btn-mob">
+                <a href="#" class="btn-black">Все новости</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="sec-marg-glob">
+    <div class="container">
+        <div class="footer__main">
+            <div class="footer__item">
+                <a href="#" class="footer__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="#">Каталог </a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Мото</a></li>
+                        <li><a href="#">Услуги </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__link">
+                <ul>
+                    <li><a href="#">Автомобили</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Мотоциклы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Правовая информация</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">Программа лояльности</a></li>
+                    <li><a href="#">Персональные данные</a></li>
+                    <li><a href="#">Запчасти</a></li>
+                    <li><a href="#">Корпоративным клиентам</a></li>
+                    <li><a href="#">Прокат автомобилей</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Финансовые услуги</a></li>
+                    <li><a href="#">Инвесторам</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Карта сайта</a></li>
+                </ul>
+            </div>
+            <div class="footer__cnt">
+                <a href="#" class="footer__phone">+7 (999) 999-99-99</a>
+                <a href="#" class="btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="footer__contact">
+                    <ul>
+                        <li>
+                            <i class="icons icon-messages"></i>
+                            <span>name@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-location"></i>
+                            <span>г. Москва, улица, д. , стр.</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-clock"></i>
+                            <span>Пн. - Пт. с 9:00 до 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__fon">
+        <div class="container">
+            <div class="first-know__block">
+                <div class="first-know__fl">
+                    <h3>Узнавайте первыми</h3>
+                    <form>
+                        <div class="first-know__form">
+                            <div class="first-know__inp">
+                                <label>
+                                    <input type="text" placeholder="Ваш email">
+                                </label>
+                            </div>
+                            <button class="btn-blue">Подписаться на новости</button>
+                            <div class="checkmark-cnt">
+                                <label>
+                                    <input type="checkbox" checked="">
+                                    <span class="checkmark"></span>
+                                    <small>Согласен на обработку</small>
+                                    <a href="#">персональных данных</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p>
+                    Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер
+                    и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации. Для получения подробной информации о стоимости автомобилей Audi, BMW, BMW Motorrad, Chrysler, Ford, Genesis, Hyundai, Jaguar, Jeep, Kia, Land Rover, Lexus, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Porsche, Renault, SKODA, Toyota, Volkswagen обращайтесь к менеджерам по продажам в автоцентры РОЛЬФ. Для получения информации о приобретении автомобилей в кредит, страховании, техническом обслуживании и ремонте автомобилей, запасных частях, дополнительном оборудовании, аксессуарах также обращайтесь в сервисные центры и автосалоны РОЛЬФ.Права на сайт принадлежат AO «РОЛЬФ» (ИНН 5047254063, ОГРН 1215000076279 от 27 июля 2021 года) тел. +7 (495) 785-19-78 , адрес эл. почты reception@rolf.ru
+                    *РОЛЬФ признан лучшим в организации продаж новых автомобилей и в организации сервиса премии Автодилер года 2021
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer__down">
+            <p>© АвтоМагнат. 2021</p>
+            <div class="footer__soc">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="icons icon-wk"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-youtube"></i></a></li>
+                </ul>
+            </div>
+            <a href="#" class="footer__politic">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/js/selection.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/all-slider.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+

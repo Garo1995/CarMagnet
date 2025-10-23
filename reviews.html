@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>АвтоМагнат</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header__main">
+            <div class="open-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__cnt">
+                <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="catalog__menu">
+                    <ul>
+                        <li><a href="#" class="open-catalog">Каталог </a></li>
+                        <li><a href="#">Услуги </a></li>
+                        <li><a href="#">О компании</a>
+                            <ul class="submenu">
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__fl">
+                <div class="header__menu">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="header__location">
+                    <i class="icons icon-location"></i>
+                    <span>Москва</span>
+                </a>
+
+                <button data-val="modal" class="open_modal btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="menu__fix">
+        <div class="container">
+            <div class="menu-fix__block">
+                <div class="menu-fix__href">
+                    <a href="#" class="menu-fix__name">Каталог автомобилей</a>
+                    <ul>
+                        <li><a href="#" class="cars-stock__act">Автомобили в наличии</a></li>
+                        <li><a href="#">С пробегом</a></li>
+                        <li><a href="#">Выкуп автомобиля</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                        <li><a href="#">Предложения дня</a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Новые мотоцикли</a></li>
+                        <li><a href="#">Мото с пробегом</a></li>
+                        <li><a href="#">Запчасти</a></li>
+                    </ul>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по типу кузова</h4>
+                    <div class="menu-fix__wrap">
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car1.png" alt="car">
+                            <span>Кроссовер</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car2.png" alt="car">
+                            <span>Седан</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car3.png" alt="car">
+                            <span>Внедорожник</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car4.png" alt="car">
+                            <span>Универсал</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car5.png" alt="car">
+                            <span>Хэтчбек</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car6.png" alt="car">
+                            <span>Пик Ап</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car7.png" alt="car">
+                            <span>Минивен</span>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Обзор по маркам</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по образу жизни</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle1.svg" alt="logo">
+                            <p>
+                                Семейные
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle2.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1.5 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle3.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="sale-page__main">
+    <div class="container">
+        <div class="sale-page__cnt form-reviews-sale">
+            <div class="bread-caps-pages">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li>Все отзывы</li>
+                </ul>
+            </div>
+            <h2>Отзывы об автомобилях</h2>
+            <div class="list-car__wrap">
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/kia.png" alt="icon">
+                            <span>KIA</span>
+                            <div class="list-car-rev__numb">4.9</div>
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>34 отзыва</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/hyundai.png" alt="icon">
+                            <span>Hyundai</span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>130 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/lada.png" alt="icon">
+                            <span>Lada </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>28 отзыва</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/renault.png" alt="icon">
+                            <span>Renault </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>55 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/volkswagen.png" alt="icon">
+                            <span>Volkswagen</span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/nissan.png" alt="icon">
+                            <span>Nissan </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>34 отзыва</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/mazda.png" alt="icon">
+                            <span>Mazda</span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>130 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/skoda.png" alt="icon">
+                            <span>Skoda</span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>28 отзыва</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/datsun.png" alt="icon">
+                            <span>Datsun</span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>55 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/ford.png" alt="icon">
+                            <span>Ford </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box sale-car-none">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/uaz.png" alt="icon">
+                            <span>Уаз </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box sale-car-none">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/chery.png" alt="icon">
+                            <span>Chery</span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box sale-car-none">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/cheryexeed.png" alt="icon">
+                            <span>CheryExeed </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box sale-car-none">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/mitsubishi.png" alt="icon">
+                            <span>Mitsubishi  </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-car__box sale-car-none">
+                    <div class="list-car__info">
+                        <div class="list-car__name">
+                            <img src="./assets/img/icon/honda.png" alt="icon">
+                            <span>Honda </span>
+                            <div class="list-car-rev__numb">4.9</div>
+
+                        </div>
+                        <div class="reviews-list-car">
+                            <span>12 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-liner btn-sale-car">
+                <span class="all-marok">БОЛЬШЕ МАРОК</span>
+                <span class="close-marok">Закрыть</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<section class="reviews-black-fon car-loan-margin">
+    <div class="container">
+        <div class="reviews-form">
+            <form>
+                <div class="reviews-form__cnt">
+                    <div class="select-style">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="markc">Марка</option>
+                                <option value="Audi">Audi</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Jeep">Jeep</option>
+                                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                <option value="Land Rover">Land Rover</option>
+                                <option value="Lexus">Lexus</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="select-style cat-sel-opacity">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="model">Модель</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="select-style cat-sel-opacity">
+                        <label>
+                            <select class="js-example-basic-single" name="state">
+                                <option value="model">Поколение</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="reviews-form__btn">
+                    <button class="btn-blue">Читать отзывы</button>
+                    <button class="button-line">Оставить отзыв</button>
+                    <button class="button-line">Смотреть каталог марки</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="pop-reviews__cnt">
+            <div class="pop-reviews__share">
+                <img src="./assets/img/reviews-share.jpg" alt="image">
+                <h3>Поделитесь впечатлениями о вашем авто!</h3>
+                <a href="#" class="btn-white">Оставить отзыв</a>
+            </div>
+            <div class="pop-reviews__right">
+                <div class="pop-reviews__product">
+                    <div class="pop-reviews__title">
+                        <h2>Популярные отзывы</h2>
+                        <div class="pop-reviews__btn">
+                            <div class="pop-reviews-button-prev swiper-button-prev"></div>
+                            <div class="pop-reviews-button-next swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="pop-reviews-rel">
+                        <div class="swiper pop-reviews__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="pop-reviews__box">
+                                        <span class="cars-info-use">Статус</span>
+                                        <div class="pop-reviews__photo">
+                                            <img src="./assets/img/volkswagen.png" alt="image">
+                                        </div>
+                                        <div class="pop-reviews__info">
+                                            <div class="pop-reviews__title">
+                                                <span class="pop-reviews__number">4.9</span>
+                                                <strong>Haval F7x пробег 4 600 км.</strong>
+                                            </div>
+                                            <div class="pop-reviews__user">
+                                                <img src="./assets/img/pic-us.png" alt="image">
+                                                <div class="pop-reviews__name">
+                                                    <span>Алексей Шпилевский</span>
+                                                    <p>27.09.2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="pop-reviews__volk">
+                                                <span>Volkswagen</span>
+                                                <p>Внедорожник. 2019 - 2022, I</p>
+                                            </div>
+                                            <div class="pop-reviews__param">
+                                                <div class="pop-reviews-like">
+                                                    <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                                    <small>332</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                                <span class="click-icon-lik">
+                                                    <i class="icons icon-dis-like"></i>
+                                                </span>
+                                                    <small>128</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                                    <small>502</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                                    <small>232k</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="pop-reviews__box">
+                                        <span class="cars-info-use">Статус</span>
+                                        <div class="pop-reviews__photo">
+                                            <img src="./assets/img/volkswagen.png" alt="image">
+                                        </div>
+                                        <div class="pop-reviews__info">
+                                            <div class="pop-reviews__title">
+                                                <span class="pop-reviews__number">4.9</span>
+                                                <strong>Haval F7x пробег 4 600 км.</strong>
+                                            </div>
+                                            <div class="pop-reviews__user">
+                                                <img src="./assets/img/pic-us.png" alt="image">
+                                                <div class="pop-reviews__name">
+                                                    <span>Алексей Шпилевский</span>
+                                                    <p>27.09.2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="pop-reviews__volk">
+                                                <span>Volkswagen</span>
+                                                <p>Внедорожник. 2019 - 2022, I</p>
+                                            </div>
+                                            <div class="pop-reviews__param">
+                                                <div class="pop-reviews-like">
+                                                    <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                                    <small>332</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                                    <small>128</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                                    <small>502</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                                    <small>232k</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="pop-reviews__box">
+                                        <span class="cars-info-use">Статус</span>
+                                        <div class="pop-reviews__photo">
+                                            <img src="./assets/img/volkswagen.png" alt="image">
+                                        </div>
+                                        <div class="pop-reviews__info">
+                                            <div class="pop-reviews__title">
+                                                <span class="pop-reviews__number">4.9</span>
+                                                <strong>Haval F7x пробег 4 600 км.</strong>
+                                            </div>
+                                            <div class="pop-reviews__user">
+                                                <img src="./assets/img/pic-us.png" alt="image">
+                                                <div class="pop-reviews__name">
+                                                    <span>Алексей Шпилевский</span>
+                                                    <p>27.09.2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="pop-reviews__volk">
+                                                <span>Volkswagen</span>
+                                                <p>Внедорожник. 2019 - 2022, I</p>
+                                            </div>
+                                            <div class="pop-reviews__param">
+                                                <div class="pop-reviews-like">
+                                                    <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                                    <small>332</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                                    <small>128</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                                    <small>502</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                                    <small>232k</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="pop-reviews__box">
+                                        <span class="cars-info-use">Статус</span>
+                                        <div class="pop-reviews__photo">
+                                            <img src="./assets/img/volkswagen.png" alt="image">
+                                        </div>
+                                        <div class="pop-reviews__info">
+                                            <div class="pop-reviews__title">
+                                                <span class="pop-reviews__number">4.9</span>
+                                                <strong>Haval F7x пробег 4 600 км.</strong>
+                                            </div>
+                                            <div class="pop-reviews__user">
+                                                <img src="./assets/img/pic-us.png" alt="image">
+                                                <div class="pop-reviews__name">
+                                                    <span>Алексей Шпилевский</span>
+                                                    <p>27.09.2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="pop-reviews__volk">
+                                                <span>Volkswagen</span>
+                                                <p>Внедорожник. 2019 - 2022, I</p>
+                                            </div>
+                                            <div class="pop-reviews__param">
+                                                <div class="pop-reviews-like">
+                                                    <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                                    <small>332</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                                    <small>128</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                                    <small>502</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                                    <small>232k</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="pop-reviews__box">
+                                        <span class="cars-info-use">Статус</span>
+                                        <div class="pop-reviews__photo">
+                                            <img src="./assets/img/volkswagen.png" alt="image">
+                                        </div>
+                                        <div class="pop-reviews__info">
+                                            <div class="pop-reviews__title">
+                                                <span class="pop-reviews__number">4.9</span>
+                                                <strong>Haval F7x пробег 4 600 км.</strong>
+                                            </div>
+                                            <div class="pop-reviews__user">
+                                                <img src="./assets/img/pic-us.png" alt="image">
+                                                <div class="pop-reviews__name">
+                                                    <span>Алексей Шпилевский</span>
+                                                    <p>27.09.2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="pop-reviews__volk">
+                                                <span>Volkswagen</span>
+                                                <p>Внедорожник. 2019 - 2022, I</p>
+                                            </div>
+                                            <div class="pop-reviews__param">
+                                                <div class="pop-reviews-like">
+                                                    <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                                    <small>332</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                                    <small>128</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                                    <small>502</small>
+                                                </div>
+                                                <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                                    <small>232k</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-reviews-pagination swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="owners-from__block">
+                    <h2>4038 отзывов автовладельцев</h2>
+                    <div class="owners-from__flex">
+                        <div class="owners-only__with">
+                            <a href="#" class="owners-only__pic">Только с фотографиями</a>
+                            <a href="#" class="owners-only__rev">Все отзывы</a>
+                        </div>
+                        <div class="owners-from__sel">
+                            <span class="owners-from__data">По дате</span>
+                            <div class="owners-from__drop">
+                                <ul>
+                                    <li>По популярности</li>
+                                    <li>Самые обсуждаемые</li>
+                                    <li>Самые полезные</li>
+                                    <li>Сначала с высоким рейтингом</li>
+                                    <li>Сначала с низким рейтингом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="length-revmax__block">
+                    <div class="length-revmax__box">
+                        <div class="length-revmax__name">
+                            <span class="length-revmax__numb">4.9</span>
+                            <h4>Максимально длинный заголовок отзыва с переносом строки</h4>
+                        </div>
+                        <div class="length-revmax__picture">
+                            <img src="./assets/img/reviews2.jpg" alt="image">
+                        </div>
+                        <div class="length-revmax__cnt">
+                            <div class="length-revmax__user">
+                                <div class="length-user__pic">
+                                    <span>А</span>
+                                </div>
+                                <div class="length-user__name">
+                                    <span>Алексей Шпилевский</span>
+                                    <small>27.09.2020</small>
+                                </div>
+                            </div>
+                            <p>
+                                Из плюсов, это большой багажник и вроде как неплохой дизайн. В целом на повседнев она
+                                норм. В остальном же, это автомобиль с дешевыми материалами, унылым двигателем, стучащей
+                                ходовке. Если нужна машина кататься...
+                            </p>
+                            <div class="length-user__volks">
+                                <p>Volkswagen</p>
+                                <div class="pop-reviews__param">
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                        <small>332</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                        <small>128</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                        <small>502</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                        <small>232k</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="length-revmax__box">
+                        <div class="length-revmax__name">
+                            <span class="length-revmax__numb">4.9</span>
+                            <h4>Максимально длинный заголовок отзыва с переносом строки</h4>
+                        </div>
+                        <div class="length-revmax__cnt">
+                            <div class="length-revmax__user">
+                                <div class="length-user__pic">
+                                    <span>А</span>
+                                </div>
+                                <div class="length-user__name">
+                                    <span>Алексей Шпилевский</span>
+                                    <small>27.09.2020</small>
+                                </div>
+                            </div>
+                            <p>
+                                Из плюсов, это большой багажник и вроде как неплохой дизайн. В целом на повседнев она
+                                норм. В остальном же, это автомобиль с дешевыми материалами, унылым двигателем, стучащей
+                                ходовке. Если нужна машина кататься...
+                            </p>
+                            <div class="length-user__volks">
+                                <p>Volkswagen</p>
+                                <div class="pop-reviews__param">
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                        <small>332</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                        <small>128</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                        <small>502</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                        <small>232k</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="length-revmax__box">
+                        <div class="length-revmax__name">
+                            <span class="length-revmax__numb numb-col-yellow">3.3</span>
+                            <h4>Заголовок </h4>
+                        </div>
+                        <div class="length-revmax__picture">
+                            <img src="./assets/img/rev21.png" alt="image">
+                        </div>
+                        <div class="length-revmax__cnt">
+                            <div class="length-revmax__user">
+                                <div class="length-user__pic">
+                                    <span>А</span>
+                                </div>
+                                <div class="length-user__name">
+                                    <span>Алексей Шпилевский</span>
+                                    <small>27.09.2020</small>
+                                </div>
+                            </div>
+                            <p>
+                                Из плюсов, это большой багажник и вроде как неплохой дизайн. В целом на повседнев она
+                                норм. В остальном же, это автомобиль с дешевыми материалами, унылым двигателем, стучащей
+                                ходовке. Если нужна машина кататься...
+                            </p>
+                            <div class="length-user__volks">
+                                <p>Volkswagen</p>
+                                <div class="pop-reviews__param">
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik"><i class="icons icon-like"></i></span>
+                                        <small>332</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                            <i class="icons icon-dis-like"></i>
+                                        </span>
+                                        <small>128</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-mess"></i>
+                                        </span>
+                                        <small>502</small>
+                                    </div>
+                                    <div class="pop-reviews-like">
+                                        <span class="click-icon-lik">
+                                         <i class="icons icon-eye"></i>
+                                        </span>
+                                        <small>232k</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages-pag">
+                    <ul>
+                        <li class="pages-pag__act"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">»</a></li>
+                        <li><a href="#">»»</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="about-brands__tit">
+            <h2>Отзывы о марках авто</h2>
+            <div class="pop-reviews__btn">
+                <div class="about-brand-button-prev swiper-button-prev"></div>
+                <div class="about-brand-button-next swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="about-brands__cnt">
+            <div class="swiper about-brands__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/kia.png" alt="icon">
+                                    <span>KIA</span>
+                                    <div class="list-car-rev__numb">4.9</div>
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>34 отзыва</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/hyundai.png" alt="icon">
+                                    <span>Hyundai</span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>130 отзывов</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/lada.png" alt="icon">
+                                    <span>Lada </span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>28 отзыва</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/renault.png" alt="icon">
+                                    <span>Renault </span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>55 отзывов</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/volkswagen.png" alt="icon">
+                                    <span>Volkswagen</span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>12 отзывов</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/nissan.png" alt="icon">
+                                    <span>Nissan </span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>34 отзыва</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/mazda.png" alt="icon">
+                                    <span>Mazda</span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>130 отзывов</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="list-car__info">
+                                <div class="list-car__name">
+                                    <img src="./assets/img/icon/skoda.png" alt="icon">
+                                    <span>Skoda</span>
+                                    <div class="list-car-rev__numb">4.9</div>
+
+                                </div>
+                                <div class="reviews-list-car">
+                                    <span>28 отзыва</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-brands-pagination swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="bestsellers__fl">
+            <h2>Популярные модели в продаже</h2>
+            <div class="bestsellers__btn">
+                <div class="interested-button-prev swiper-button-prev"></div>
+                <div class="interested-button-next swiper-button-next"></div>
+                <a href="#" class="btn-black">Все предложения</a>
+            </div>
+        </div>
+        <div class="bestsellers__cnt interested-rev-siz">
+            <div class="swiper interested__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="outProduction__pic">
+                            <img src="./assets/img/pop-car1.png" alt="image">
+                            <div class="reviews-interested__name">
+                                <span>Subaru Forester</span>
+                                <div class="reviews-interested__price">
+                                    <small>От</small>
+                                    <p>1 867 000 ₽ </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="outProduction__pic">
+                            <img src="./assets/img/pop-car2.png" alt="image">
+                            <div class="reviews-interested__name">
+                                <span>CHERYFEED TXL</span>
+                                <div class="reviews-interested__price">
+                                    <small>От</small>
+                                    <p>1 867 000 ₽ </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="outProduction__pic">
+                            <img src="./assets/img/pop-car3.png" alt="image">
+                            <div class="reviews-interested__name">
+                                <span>Porsche Taycan Sport Turismo</span>
+                                <div class="reviews-interested__price">
+                                    <small>От</small>
+                                    <p>1 867 000 ₽ </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="outProduction__pic">
+                            <img src="./assets/img/pop-car4.png" alt="image">
+                            <div class="reviews-interested__name">
+                                <span>KIA Ceed</span>
+                                <div class="reviews-interested__price">
+                                    <small>От</small>
+                                    <p>1 867 000 ₽ </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="outProduction__pic">
+                            <img src="./assets/img/pop-car3.png" alt="image">
+                            <div class="reviews-interested__name">
+                                <span>Porsche Taycan Sport Turismo</span>
+                                <div class="reviews-interested__price">
+                                    <small>От</small>
+                                    <p>1 867 000 ₽ </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="outProduction__pic">
+                            <img src="./assets/img/pop-car4.png" alt="image">
+                            <div class="reviews-interested__name">
+                                <span>KIA Ceed</span>
+                                <div class="reviews-interested__price">
+                                    <small>От</small>
+                                    <p>1 867 000 ₽ </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="interested-pagination swiper-pagination"></div>
+            <div class="product-btn-mob">
+                <a href="#" class="btn-black">Все предложения</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="superior-technology">
+            <h2>Audi - превосходство высоких технологий</h2>
+            <p>
+                Отменное качество. Модный дизайн. Лидерство по производству автомобилей премиум-класса.
+                И все это про знаменитый немецкий бренд, представленный на более чем ста рынках по всему земному шару. Его слоган «Vorsprung durch Technik», что переводится как «Превосходство высоких технологий», хорошо знаком миллионам людей, влюбленных в подлинное качество и инновации.
+            </p>
+            <h5>Пять причин, почему стоит выбрать именно его:</h5>
+            <ul>
+                <li>первоклассное исполнение</li>
+                <li>прогрессивные технические решения</li>
+                <li>яркий и запоминающийся дизайн</li>
+                <li>премиальный уровень комфорта</li>
+                <li>широкие возможности персонализации</li>
+            </ul>
+            <p>
+                На российский рынок марка ворвалась в 1998 году, когда он был перспективным, но еще не готовым к ее стремительному появлению. Сегодня она актуальна и популярна — благодаря эксклюзивному стилю и технологическому превосходству, применимому ко всему ее модельному ряду.
+                Эффектные седаны и универсалы, мощные внедорожники, элегантные купе и кабриолеты, захватывающие дух суперкары и компактные динамичные хэтчбэки — модельный ряд, претендующий на звание легендарного. И не последнюю роль в этом играет инновационный полный привод quattro, доступный в виде опции почти для всех автомобилей марки. Он не просто выводит управление машиной на новый, более высокий уровень, но и повышает безопасность в разы, даруя комфорт и уверенность в дороге.
+                Оцените все преимущества немецкого премиум-класса в автосалоне
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="car-loan-margin">
+    <div class="container">
+        <div class="footer__main">
+            <div class="footer__item">
+                <a href="#" class="footer__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="#">Каталог </a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Мото</a></li>
+                        <li><a href="#">Услуги </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__link">
+                <ul>
+                    <li><a href="#">Автомобили</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Мотоциклы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Правовая информация</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">Программа лояльности</a></li>
+                    <li><a href="#">Персональные данные</a></li>
+                    <li><a href="#">Запчасти</a></li>
+                    <li><a href="#">Корпоративным клиентам</a></li>
+                    <li><a href="#">Прокат автомобилей</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Финансовые услуги</a></li>
+                    <li><a href="#">Инвесторам</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Карта сайта</a></li>
+                </ul>
+            </div>
+            <div class="footer__cnt">
+                <a href="#" class="footer__phone">+7 (999) 999-99-99</a>
+                <a href="#" class="btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="footer__contact">
+                    <ul>
+                        <li>
+                            <i class="icons icon-messages"></i>
+                            <span>name@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-location"></i>
+                            <span>г. Москва, улица, д. , стр.</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-clock"></i>
+                            <span>Пн. - Пт. с 9:00 до 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__fon">
+        <div class="container">
+            <div class="first-know__block">
+                <div class="first-know__fl">
+                    <h3>Узнавайте первыми</h3>
+                    <form>
+                        <div class="first-know__form">
+                            <div class="first-know__inp">
+                                <label>
+                                    <input type="text" placeholder="Ваш email">
+                                </label>
+                            </div>
+                            <button class="btn-blue">Подписаться на новости</button>
+                            <div class="checkmark-cnt">
+                                <label>
+                                    <input type="checkbox" checked="">
+                                    <span class="checkmark"></span>
+                                    <small>Согласен на обработку</small>
+                                    <a href="#">персональных данных</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p>
+                    Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер
+                    и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации. Для получения подробной информации о стоимости автомобилей Audi, BMW, BMW Motorrad, Chrysler, Ford, Genesis, Hyundai, Jaguar, Jeep, Kia, Land Rover, Lexus, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Porsche, Renault, SKODA, Toyota, Volkswagen обращайтесь к менеджерам по продажам в автоцентры РОЛЬФ. Для получения информации о приобретении автомобилей в кредит, страховании, техническом обслуживании и ремонте автомобилей, запасных частях, дополнительном оборудовании, аксессуарах также обращайтесь в сервисные центры и автосалоны РОЛЬФ.Права на сайт принадлежат AO «РОЛЬФ» (ИНН 5047254063, ОГРН 1215000076279 от 27 июля 2021 года) тел. +7 (495) 785-19-78 , адрес эл. почты reception@rolf.ru
+                    *РОЛЬФ признан лучшим в организации продаж новых автомобилей и в организации сервиса премии Автодилер года 2021
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer__down">
+            <p>© АвтоМагнат. 2021</p>
+            <div class="footer__soc">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="icons icon-wk"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-youtube"></i></a></li>
+                </ul>
+            </div>
+            <a href="#" class="footer__politic">Политика конфиденциальности</a>
+        </div>
+    </div>
+
+    <div class="footer-mob__menu">
+        <ul>
+            <li><a href="#">Автомобили</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Мотоциклы</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Правовая информация</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Программа лояльности</a></li>
+            <li><a href="#">Персональные данные</a></li>
+            <li><a href="#">Запчасти</a></li>
+            <li><a href="#">Корпоративным клиентам</a></li>
+            <li><a href="#">Прокат автомобилей</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Карьера</a></li>
+            <li><a href="#">Финансовые услуги</a></li>
+            <li><a href="#">Инвесторам</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Карта сайта</a></li>
+        </ul>
+    </div>
+
+</footer>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <div class="buy-click__mod model-card__main">
+            <div class="close"></div>
+            <div class="buy-click__cnt">
+                <h4>Заголовок</h4>
+                <p>Узнайте предварительное решение
+                    банков за 30 минут!</p>
+            </div>
+            <form>
+                <div class="modal-inp">
+                    <label>
+                        <input type="text" placeholder="Ваше имя">
+                    </label>
+                </div>
+                <div class="modal-inp modal-inp__err">
+                    <label>
+                        <input type="text" placeholder="+7 999 999 99 99" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}"
+                               class="phone">
+                    </label>
+                </div>
+                <button class="btn-blue ">Отравить</button>
+                <div class="checkmark-cnt">
+                    <label>
+                        <input type="checkbox" checked="">
+                        <span class="checkmark"></span>
+                        <small>Согласен на обработку</small>
+                        <a href="#">персональных данных</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/js/selection.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/all-slider.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+

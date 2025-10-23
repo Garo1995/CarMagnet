@@ -1,0 +1,592 @@
+.full-cycle-tax__fon{
+    background: var(--sliver-five);
+    padding: 96px 0px;
+}
+.full-cycle__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    gap: 22px;
+}
+.full-cycle__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 860px;
+    width: 100%;
+    gap: 16px;
+}
+.full-cycle__box{
+    width: calc(33.333333% - 11px);
+}
+.full-cycle__info{
+    width: 100%;
+    display: flex;
+    padding: 40px 24px 32px 24px;
+    height: 226px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: var(--white);
+    color: var(--blue-two);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    transition: 0.4s;
+}
+.full-cycle__info:hover{
+    background: var(--main-color);
+    color: var(--white);
+}
+.full-cycle__info img{
+    transition: 0.4s;
+}
+.full-cycle__info:hover img{
+    filter: brightness(10);
+}
+
+.full-cycle__text{
+    max-width: 860px;
+    width: 100%;
+    padding: 32px 72px;
+    border-radius: 24px;
+    border-left: 14px solid var(--main-color);
+    background: var(--white);
+    box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.full-cycle__text h4{
+    color: var(--black-mood);
+}
+.full-cycle__text p{
+    margin-top: 19px;
+}
+
+
+
+.taxi-page__main{
+    margin-top: 48px;
+}
+.taxi-page__slider{
+    padding-top: 30px;
+    border-radius: 32px;
+    width: 100%;
+}
+
+.taxi-page__cnt{
+    position: relative;
+}
+
+.taxi-page__block{
+    padding: 0 48px 40px;
+    border-radius: 32px;
+    background: #FDEFC7;
+    display: flex;
+}
+
+.taxi-page-margin{
+    margin-top: 95px;
+}
+.car-interest-rate{
+    display: flex;
+    margin: 24px 0;
+    align-items: center;
+    gap: 8px;
+}
+.car-interest-rate strong{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.car-interest-rate small{
+    color: var(--blue-two);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.buy-turnkey__info{
+    max-width: 720px;
+    width: 100%;
+    padding-top: 40px;
+}
+.buy-turnkey__info h1{
+    color: var(--black-mood);
+}
+.buy-turnkey__info h4{
+    color: var(--black-mood);
+    margin-top: 10px;
+}
+.buy-turnkey__info .btn-blue{
+    margin-top: 64px;
+    padding: 16px 32px;
+}
+.taxi-page__picture{
+    display: flex;
+    max-width: 884px;
+    width: 100%;
+    margin-top: -25px;
+}
+.taxi-page__cnt .taxi-page-pagination{
+    opacity: 1;
+    visibility: visible;
+    max-width: 630px;
+    width: 100%;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+}
+
+.taxi-page__cnt .swiper-pagination-bullet {
+    border-radius: 8px;
+    background: var(--black-mood);
+    width: 26px;
+    height: 2px;
+    transition: 0.3s;
+    opacity: 0.4;
+
+}
+.taxi-page__cnt .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+
+
+.taxi-anot-js .btn-blue {
+    border-radius: 18px;
+    background: var(--main-color);
+    padding: 8px 32px;
+    font-size: 18px;
+    color: var(--white);
+    margin: 0 auto;
+    width: 100%;
+    height: 46px;
+}
+
+.taxi-main-page__block .reviews-min-text-hrefs{
+    margin-top: 60px;
+}
+.taxi-main-page__block .car-selection__qwe{
+    gap: 8px;
+    max-width: max-content;
+}
+.taxi-main-page__block  .selection-click span {
+    font-weight: 400;
+}
+.benefits-purch__fon{
+    padding: 80px 0;
+    background: var(--black-mood);
+}
+.benefits-purch__fon h2{
+    color: var(--white);
+}
+.benefits-purch__flex{
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    gap: 48px;
+}
+.benefits-purch__box{
+    max-width: 404px;
+    width: 100%;
+}
+.benefits-purch__box p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: var(--white);
+}
+.benefits-purch__icon{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.benefits-purch__icon span{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+.ben-purchasing__flex{
+    margin-top: 64px;
+    border-top: 8px solid var(--blue-three);
+    padding-top: 40px;
+    gap: 32px;
+    display: flex;
+}
+.ben-purchasing__box{
+    width: calc(25% - 16px);
+}
+.ben-purchasing__info{
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    background: var(--sliver-five);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.ben-purchasing__title{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.ben-purchasing__title strong{
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.ben-purchasing__title span{
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.ben-purchasing__info p{
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.ben-purchasing__info .btn-blue{
+    padding: 8px 24px;
+}
+.ben-purchasing__info .btn-liner {
+    padding: 8px 24px;
+    max-width: max-content;
+    font-size: 18px;
+    color: var(--main-color);
+    background: unset;
+}
+.ben-purchasing__info .btn-liner:hover{
+    color: var(--white);
+    background: var(--main-color);
+
+}
+
+.swiper-grid>.swiper-wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.partner-bank__cnt .partners__photo{
+    box-shadow: 0px 8px 22px 0px rgba(23, 22, 34, 0.08);
+}
+
+
+
+
+.buy-click__mod .mark-name-car {
+    max-width: 100%;
+    padding: 3px 18px;
+    gap: 14px;
+    height: 54px;
+    margin-bottom: 24px;
+}
+.buy-click__mod .select-style{
+    margin-bottom: 24px;
+}
+.buy-click__mod .select-style .select2-container--default .select2-selection--single {
+    width: 100%;
+    height: 54px;
+}
+.buy-click__mod  .mark-name-car .checkmark-cnt {
+    margin-top: 0;
+}
+
+
+@media (max-width: 1799px){
+    .ben-purchasing__flex {
+        gap: 24px;
+    }
+    .ben-purchasing__info {
+        padding: 24px;
+    }
+    .ben-purchasing__title span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .ben-purchasing__info p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+    .benefits-purch__icon span {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .ben-purchasing__title strong {
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+@media (max-width: 1699px){
+    .full-cycle__text {
+        max-width: 700px;
+        padding: 32px 32px;
+    }
+    .full-cycle__info {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    #request-online .modal-content {
+        width: 100%;
+        height: auto;
+        padding-top: 16px;
+    }
+}
+@media (max-width: 1599px){
+    .full-cycle__info {
+        padding: 26px 16px 29px;
+        font-size: 20px;
+        height: 210px;
+    }
+    .full-cycle__text {
+        max-width: 635px;
+    }
+    .ben-purchasing__info p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 1399px){
+    .full-cycle__text {
+        max-width: 560px;
+    }
+    .taxi-page__block {
+        padding: 0 30px 42px;
+    }
+    .buy-turnkey__info .btn-blue {
+        margin-top: 28px;
+    }
+    .buy-turnkey__info {
+        max-width: 504px;
+    }
+}
+@media (max-width: 1299px){
+    .full-cycle-tax__fon {
+        padding: 70px 0px;
+    }
+    .full-cycle__flex {
+        margin-top: 40px;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .full-cycle__text {
+        max-width: 860px;
+        padding: 32px 58px;
+        border-top: 6px solid var(--main-color);
+        border-left: unset;
+    }
+    .ben-purchasing__flex {
+        gap: 16px;
+    }
+    .ben-purchasing__info p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .benefits-purch__icon img{
+        width: 45px;
+    }
+    .benefits-purch__flex {
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .benefits-purch__icon {
+        gap: 16px;
+    }
+    .benefits-purch__fon {
+        padding: 60px 0;
+    }
+    .ben-purchasing__box {
+        width: calc(33.333333% - 11px);
+    }
+    .ben-purchasing__flex {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .benefits-purch__box {
+        max-width: 302px;
+    }
+    .taxi-page-margin {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 1199px){
+    .benefits-purch__flex {
+        flex-wrap: wrap;
+    }
+    .taxi-main-page__block .reviews-min-text-hrefs {
+        margin-top: 32px;
+    }
+    .taxi-page__cnt .taxi-page-pagination {
+        max-width: 430px;
+        bottom: 25px;
+        padding-left: 30px;
+    }
+    .buy-turnkey__info {
+        max-width: 410px;
+    }
+
+}
+@media (max-width: 1020px){
+    .full-cycle__info {
+        padding: 26px 16px 29px;
+        font-size: 18px;
+        height: 200px;
+        line-height: 24px;
+    }
+    .full-cycle__text {
+        padding: 32px 32px;
+    }
+    .taxi-page-margin {
+        margin-top: 56px;
+    }
+    .taxi-page__block {
+        padding: 0 30px 42px;
+        flex-direction: column-reverse;
+    }
+    .buy-turnkey__info {
+        max-width: 660px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    .taxi-page__cnt .taxi-page-pagination {
+        max-width: 100%;
+        bottom: 30px;
+        padding-left: 0;
+        justify-content: center;
+    }
+   .taxi-main-page__block .selection-click {
+        padding: 6px 11px;
+    }
+    .ben-purchasing__box {
+        width: calc(50% - 11px);
+    }
+    .partner-bank__slider{
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 760px) {
+    .full-cycle__box {
+        width: calc(50% - 11px);
+    }
+
+    .taxi-main-page__block .reviews-min-text-hrefs {
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    }
+
+    .taxi-main-page__block .car-selection__qwe {
+        gap: 8px;
+        max-width: max-content;
+        width: 800px;
+    }
+
+    .benefits-purch__box {
+        max-width: 502px;
+    }
+
+    .benefits-purch__icon {
+        align-items: center;
+    }
+
+    .ben-purchasing__flex {
+        margin-top: 34px;
+        border-top: unset;
+        padding-top: 0;
+    }
+
+    .taxi-page__cnt h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .taxi-page__cnt h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .buy-turnkey__info .btn-blue {
+        margin-top: 24px;
+
+    }
+    .taxi-page__block {
+        padding: 0 24px 42px;
+    }
+}
+@media (max-width: 570px){
+    .full-cycle__box {
+        width: 100%;
+    }
+    .full-cycle__info {
+        padding: 16px;
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        text-align: left;
+    }
+    .full-cycle__info img{
+        width: 30px;
+    }
+    .full-cycle-tax__fon {
+        padding: 40px 0px;
+    }
+    .full-cycle__flex {
+        margin-top: 32px;
+    }
+    .full-cycle__text {
+        padding: 32px 16px;
+        border-radius: 16px;
+    }
+    .full-cycle__text h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ben-purchasing__box {
+        width: 100%;
+    }
+    .ben-purchasing__title span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .partner-bank__cnt .partners__photo {
+        margin: 0 auto;
+    }
+    .benefits-purch__icon span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .benefits-purch__icon img {
+        width: 40px;
+    }
+    .taxi-page__main {
+        margin-top: 22px;
+    }
+    .buy-click__mod .mark-name-car {
+        margin-bottom: 16px;
+    }
+    .buy-click__mod .select-style{
+        margin-bottom: 16px;
+    }
+}

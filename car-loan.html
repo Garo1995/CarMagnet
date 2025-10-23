@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>АвтоМагнат</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header__main">
+            <div class="open-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__cnt">
+                <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="catalog__menu">
+                    <ul>
+                        <li><a href="#" class="open-catalog">Каталог </a></li>
+                        <li><a href="#">Услуги </a></li>
+                        <li><a href="#">О компании</a>
+                            <ul class="submenu">
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__fl">
+                <div class="header__menu">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="header__location">
+                    <i class="icons icon-location"></i>
+                    <span>Москва</span>
+                </a>
+
+                <button data-val="modal" class="open_modal btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="menu__fix">
+        <div class="container">
+            <div class="menu-fix__block">
+                <div class="menu-fix__href">
+                    <a href="#" class="menu-fix__name">Каталог автомобилей</a>
+                    <ul>
+                        <li><a href="#" class="cars-stock__act">Автомобили в наличии</a></li>
+                        <li><a href="#">С пробегом</a></li>
+                        <li><a href="#">Выкуп автомобиля</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                        <li><a href="#">Предложения дня</a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Новые мотоцикли</a></li>
+                        <li><a href="#">Мото с пробегом</a></li>
+                        <li><a href="#">Запчасти</a></li>
+                    </ul>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по типу кузова</h4>
+                    <div class="menu-fix__wrap">
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car1.png" alt="car">
+                            <span>Кроссовер</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car2.png" alt="car">
+                            <span>Седан</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car3.png" alt="car">
+                            <span>Внедорожник</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car4.png" alt="car">
+                            <span>Универсал</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car5.png" alt="car">
+                            <span>Хэтчбек</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car6.png" alt="car">
+                            <span>Пик Ап</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car7.png" alt="car">
+                            <span>Минивен</span>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Обзор по маркам</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по образу жизни</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle1.svg" alt="logo">
+                            <p>
+                                Семейные
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle2.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1.5 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle3.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="car-loan__main">
+    <div class="container">
+        <div class="car-loan__fon">
+            <div class="car-loan__picture">
+                <img src="./assets/img/loan1.jpg" alt="image">
+            </div>
+            <div class="glob-form-style">
+                <div class="glob-form__title">
+                    <span>Оставьте заявку сейчас</span>
+                    <strong>Ставка от 3.5 %</strong>
+                    <small>годовых на срок до 7 лет</small>
+                </div>
+                <form>
+                    <div class="modal-inp">
+                        <label>
+                            <input type="text" placeholder="Ваше имя">
+                        </label>
+                    </div>
+                    <div class="modal-inp modal-inp__err">
+                        <label>
+                            <input type="text" placeholder="+7 999 999 99 99" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}"
+                                   class="phone">
+                        </label>
+                    </div>
+                    <button class="btn-blue ">Оставить заявку</button>
+                    <div class="checkmark-cnt">
+                        <label>
+                            <input type="checkbox" checked="">
+                            <span class="checkmark"></span>
+                            <small>Согласен на обработку</small>
+                            <a href="#">персональных данных</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="car-loan__info">
+                <h1>Автокредит</h1>
+                <h4>Заполните заявку онлайн и получите скидку 70 000 ₽ </h4>
+                <div class="application__flex">
+                    <div class="application__name">
+                        <strong>Первоначальный взнос</strong>
+                        <p>от 0 ₽</p>
+                    </div>
+                    <div class="application__name">
+                        <strong>Одобрение
+                            по кредиту</strong>
+                        <p>98 %</p>
+                    </div>
+                    <div class="application__name">
+                        <strong>Максимальная сумма
+                            кредитования</strong>
+                        <p>3.5 млн</p>
+                    </div>
+                    <div class="application__name">
+                        <strong>В подарок
+                            по выбору
+                            клиента</strong>
+                        <p>КАСКО</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="car-selection sec-marg-glob">
+    <div class="container">
+        <div class="car-selection__cnt credit-calculator">
+            <div class="car-selection__flex">
+                <div class="car-selection__title">
+                    <img src="./assets/img/icon/calculator.svg" alt="icon">
+                    <h3>Кредитный калькулятор</h3>
+                </div>
+                <div class="car-selection__qwe">
+                    <div class="selection-click">
+                        <span>Новые авто</span>
+                    </div>
+                    <div class="selection-click selection-click__act">
+                        <i class="ptich"></i> <span>С пробегом</span>
+                    </div>
+                </div>
+            </div>
+            <div class="car-selection__info">
+                <div class="select-style select-brand">
+                    <label>
+                        <select class="js-example-basic-single" name="state">
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Hyundai">Hyundai</option>
+                            <option value="Jeep">Jeep</option>
+                            <option value="Mercedes-Benz">Mercedes-Benz</option>
+                            <option value="Land Rover">Land Rover</option>
+                            <option value="Lexus">Lexus</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="select-style select-brand">
+                    <label>
+                        <select class="js-example-basic-single" name="state">
+                            <option value="model">Модель</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="select-style select-brand">
+                    <label>
+                        <select class="js-example-basic-single" name="state">
+                            <option value="model">Модель</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="desired-loan__fl">
+                <div class="desired-loan__box">
+                    <h5>Желаемый срок кредита в месяцах</h5>
+                    <div class="loan-term-months">
+                        <ul>
+                            <li class="term-months-click">0</li>
+                            <li class="term-months-click">12</li>
+                            <li class="term-months-click">24</li>
+                            <li class="term-months-click">36</li>
+                            <li class="term-months-click months-act">48</li>
+                            <li class="term-months-click">60</li>
+                            <li class="term-months-click">72</li>
+                            <li class="term-months-click">84</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="desired-loan__box">
+                    <h5>Первоначальный взнос</h5>
+                    <div class="initial-fee">
+                        <ul>
+                            <li class="initial-fee-click">0</li>
+                            <li class="initial-fee-click">200 000 ₽</li>
+                            <li class="initial-fee-click">400 000 ₽</li>
+                            <li class="initial-fee-click">600 000 ₽</li>
+                            <li class="initial-fee-click initial-fee-act">800 000 ₽</li>
+                            <li class="initial-fee-click">1 000 000 ₽</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-blue detailed-info">Подробная информация</button>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <h2>Спецпрограммы</h2>
+        <div class="spec-programs">
+            <div class="spec-programs__cnt">
+                <a href="#" class="spec-programs__box">
+                    <p>Программа</p>
+                    <span>СHANGAN</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box">
+                    <p>Автокредит от</p>
+                    <span>LADA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box">
+                    <p>Программа</p>
+                    <span>KIA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>СHANGAN</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>LADA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>KIA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>СHANGAN</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>LADA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>KIA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>СHANGAN</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>LADA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>KIA</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Автокредит от</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+                <a href="#" class="spec-programs__box programs-none__mob">
+                    <p>Программа</p>
+                    <span>CHEVROLET</span>
+                    <span>FINANCE</span>
+                </a>
+            </div>
+
+            <button class="btn-black open-all-programs">Показать больше</button>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="bestsellers__fl">
+            <h2>Государственные программы</h2>
+            <div class="bestsellers__btn">
+                <div class="stock-sec-button-prev swiper-button-prev"></div>
+                <div class="stock-sec-button-next swiper-button-next"></div>
+                <a href="#" class="btn-black">Все программы</a>
+            </div>
+        </div>
+        <div class="stock-sec__cnt cal-loan-page__cnt">
+            <div class="swiper stock-sec__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="stock-sec__href"
+                           style="background-image: url('./assets/img/stock-sec2.jpg')">
+                            <span class="cars-discount">Скидка</span>
+                            <h5>Первый автомобиль</h5>
+                            <p>
+                                Особенностью программы «Первый автомобиль» является то, что при покупке автомобиля –
+                                значительную часть кредитной нагрузки на себя берёт Государство, оставляя заёмщику на
+                                погашение лишь остаток. Таким образом создаются очень лояльные и привлекательные условия
+                                для покупки автомобиля посредством автокредита!
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="stock-sec__href"
+                           style="background-image: url('./assets/img/stock-sec1.jpg')">
+                            <span class="cars-discount">Скидка</span>
+                            <h5>Семейный автомобиль</h5>
+                            <p>
+                                Основной целью это программы является предоставление возможности покупки автомобиля
+                                многодетным семьям. К тому же, одним из дополнительных условий должно быть, что
+                                приобретаемая машина должна быть или какой-либо российской марки, или зарубежного
+                                автомобильного бренда, территории России.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="stock-sec__href"
+                           style="background-image: url('./assets/img/stock-sec3.png')">
+                            <span class="cars-discount">Скидка</span>
+                            <h5>Семейный автомобиль</h5>
+
+                            <p>
+                                Основной целью это программы является предоставление возможности покупки автомобиля
+                                многодетным семьям. К тому же, одним из дополнительных условий должно быть, что
+                                приобретаемая машина должна быть или какой-либо российской марки, или зарубежного
+                                автомобильного бренда, территории России.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="stock-sec__href"
+                           style="background-image: url('./assets/img/stock-sec1.jpg')">
+                            <span class="cars-discount">Скидка</span>
+                            <h5>Семейный автомобиль</h5>
+
+                            <p>
+                                Основной целью это программы является предоставление возможности покупки автомобиля
+                                многодетным семьям. К тому же, одним из дополнительных условий должно быть, что
+                                приобретаемая машина должна быть или какой-либо российской марки, или зарубежного
+                                автомобильного бренда, территории России.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="stock-sec-pagination swiper-pagination"></div>
+            <div class="product-btn-mob">
+                <a href="#" class="btn-black">Все программы</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="frequently__main">
+            <h2>Подробная информация</h2>
+            <div class="accordion__block accordion" id="accordion">
+                <div class="accordion__cnt">
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Требования</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text pad-info">
+                                <ul>
+                                    <li>
+                                        <p>Гражданство</p>
+                                        <span>Россия</span>
+                                    </li>
+                                    <li>
+                                        <p>Возраст</p>
+                                        <span>От 21 до 60</span>
+                                    </li>
+                                    <li>
+                                        <p>Два документа</p>
+                                        <span>Паспорт и права</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Требование</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text pad-info">
+                                <ul>
+                                    <li>
+                                        <p>Гражданство</p>
+                                        <span>Россия</span>
+                                    </li>
+                                    <li>
+                                        <p>Возраст</p>
+                                        <span>От 21 до 60</span>
+                                    </li>
+                                    <li>
+                                        <p>Два документа</p>
+                                        <span>Паспорт и права</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Условия</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text pad-info">
+                                <ul>
+                                    <li>
+                                        <p>Гражданство</p>
+                                        <span>Россия</span>
+                                    </li>
+                                    <li>
+                                        <p>Возраст</p>
+                                        <span>От 21 до 60</span>
+                                    </li>
+                                    <li>
+                                        <p>Два документа</p>
+                                        <span>Паспорт и права</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion__cnt">
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Автокредитование</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text pad-info">
+                                <ul>
+                                    <li>
+                                        <p>Гражданство</p>
+                                        <span>Россия</span>
+                                    </li>
+                                    <li>
+                                        <p>Возраст</p>
+                                        <span>От 21 до 60</span>
+                                    </li>
+                                    <li>
+                                        <p>Два документа</p>
+                                        <span>Паспорт и права</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion__box">
+                        <div class="accordion__click link">
+                            <span>Преимущества автокредитования</span>
+                        </div>
+                        <div class="submenu-accordion">
+                            <div class="accordion__text pad-info">
+                                <ul>
+                                    <li>
+                                        <p>Гражданство</p>
+                                        <span>Россия</span>
+                                    </li>
+                                    <li>
+                                        <p>Возраст</p>
+                                        <span>От 21 до 60</span>
+                                    </li>
+                                    <li>
+                                        <p>Два документа</p>
+                                        <span>Паспорт и права</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services__fon car-loan-margin">
+    <div class="container">
+        <div class="services__cnt services-car-loan">
+            <h2>Наши услуги</h2>
+            <div class="services__flex">
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/protection1.svg" alt="icon">
+                        </div>
+                        <span>Бесплатное КАСКО</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/protection2.svg" alt="icon">
+                        </div>
+                        <span>Комплект зимней резины в подарок</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/protection3.svg" alt="icon">
+                        </div>
+                        <span>Госпрограммы: -10% на любое авто</span>
+                    </a>
+                </div>
+                <div class="services__box">
+                    <a href="#" class="services__href">
+                        <div class="services__icon">
+                            <img src="./assets/img/icon/protection4.svg" alt="icon">
+                        </div>
+                        <span>Оплата проезда до автосалона</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <h2>Банки - партнеры</h2>
+    </div>
+    <div class="partners__first">
+        <div class="swiper partners__slider swiper-container-free-mode">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners1.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners2.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners3.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners4.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners5.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners6.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners7.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners__last">
+        <div class="swiper partners-log__slid swiper-container-free-mode">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners8.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners9.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners10.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners11.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners12.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners13.png" alt="logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partners__photo">
+                        <img src="./assets/img/partners14.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="dars-sale-cnt">
+            <div class="dars-sale__title">
+                <h2>Лучшие предложения</h2>
+            </div>
+            <a href="#" class="btn-black">Загрузить еще</a>
+        </div>
+        <div class="dars-sale__flex">
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽</del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars2.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mazda CX-5</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽</del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-discount">Скидка</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars3.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Mitsubishi Lancer-X</strong>
+                        <div class="cars-info__price">
+                            <span>1 789 000 ₽</span>
+                            <del>1 867 000 ₽</del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dars-sale__box">
+                <div class="cars-info">
+                    <span class="cars-info-use">С пробегом</span>
+                    <a href="#" class="cars-info__photo">
+                        <img src="./assets/img/cars1.jpg" alt="car">
+                    </a>
+                    <div class="cars-info__name">
+                        <strong>Lexus RX</strong>
+                        <div class="cars-info__price">
+                            <span>1 867 000 ₽</span>
+                            <del>1 867 000 ₽</del>
+                        </div>
+                        <span class="cars-price__mount">От 15 488 ₽ в месяц</span>
+                        <p>
+                            Teana, 2012 г.в., 136 000 км, АКПП, Бензин, Передний привод, Седан, 249 лс
+                        </p>
+                        <div class="cars-info__btn">
+                            <a href="#" class="btn-blue">Подробнее</a>
+                            <div class="cars-info__icons">
+                                <a href="#" class="href-vin"><i class="icon-vin"></i></a>
+                                <a href="#" class="href-union"><i class="icons icon-union"></i></a>
+                                <a href="#" class="href-shit"><i class="icons icon-shit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="product-btn-mob">
+            <a href="#" class="btn-black">Показать больше</a>
+        </div>
+    </div>
+</section>
+<section class="car-loan-margin">
+    <div class="container">
+        <div class="purchasing-near__fon">
+            <div class="purchasing-near__photo">
+                <img src="./assets/img/purch.jpg" alt="image">
+            </div>
+            <div class="purchasing-near__info">
+                <h2>Размышляете о покупке
+                    в ближайшем будущем?</h2>
+                <h5>
+                    Просматривайте новые спецпредложения
+                    в наших социальных сетях
+                </h5>
+                <ul class="glob-soc">
+                    <li><a href="#" target="_blank"><i class="icons icon-wk"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-telegram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="section-margin">
+    <div class="container">
+        <div class="footer__main">
+            <div class="footer__item">
+                <a href="#" class="footer__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="#">Каталог </a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Мото</a></li>
+                        <li><a href="#">Услуги </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__link">
+                <ul>
+                    <li><a href="#">Автомобили</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Мотоциклы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Правовая информация</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">Программа лояльности</a></li>
+                    <li><a href="#">Персональные данные</a></li>
+                    <li><a href="#">Запчасти</a></li>
+                    <li><a href="#">Корпоративным клиентам</a></li>
+                    <li><a href="#">Прокат автомобилей</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Финансовые услуги</a></li>
+                    <li><a href="#">Инвесторам</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Карта сайта</a></li>
+                </ul>
+            </div>
+            <div class="footer__cnt">
+                <a href="#" class="footer__phone">+7 (999) 999-99-99</a>
+                <a href="#" class="btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="footer__contact">
+                    <ul>
+                        <li>
+                            <i class="icons icon-messages"></i>
+                            <span>name@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-location"></i>
+                            <span>г. Москва, улица, д. , стр.</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-clock"></i>
+                            <span>Пн. - Пт. с 9:00 до 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__fon">
+        <div class="container">
+            <div class="first-know__block">
+                <div class="first-know__fl">
+                    <h3>Узнавайте первыми</h3>
+                    <form>
+                        <div class="first-know__form">
+                            <div class="first-know__inp">
+                                <label>
+                                    <input type="text" placeholder="Ваш email">
+                                </label>
+                            </div>
+                            <button class="btn-blue">Подписаться на новости</button>
+                            <div class="checkmark-cnt">
+                                <label>
+                                    <input type="checkbox" checked="">
+                                    <span class="checkmark"></span>
+                                    <small>Согласен на обработку</small>
+                                    <a href="#">персональных данных</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p>
+                    Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер
+                    и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437
+                    Гражданского кодекса Российской Федерации. Для получения подробной информации о стоимости
+                    автомобилей Audi, BMW, BMW Motorrad, Chrysler, Ford, Genesis, Hyundai, Jaguar, Jeep, Kia, Land
+                    Rover, Lexus, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Porsche, Renault, SKODA, Toyota, Volkswagen
+                    обращайтесь к менеджерам по продажам в автоцентры РОЛЬФ. Для получения информации о приобретении
+                    автомобилей в кредит, страховании, техническом обслуживании и ремонте автомобилей, запасных частях,
+                    дополнительном оборудовании, аксессуарах также обращайтесь в сервисные центры и автосалоны
+                    РОЛЬФ.Права на сайт принадлежат AO «РОЛЬФ» (ИНН 5047254063, ОГРН 1215000076279 от 27 июля 2021 года)
+                    тел. +7 (495) 785-19-78 , адрес эл. почты reception@rolf.ru
+                    *РОЛЬФ признан лучшим в организации продаж новых автомобилей и в организации сервиса премии
+                    Автодилер года 2021
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer__down">
+            <p>© АвтоМагнат. 2021</p>
+            <div class="footer__soc">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="icons icon-wk"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-youtube"></i></a></li>
+                </ul>
+            </div>
+            <a href="#" class="footer__politic">Политика конфиденциальности</a>
+        </div>
+    </div>
+
+    <div class="footer-mob__menu">
+        <ul>
+            <li><a href="#">Автомобили</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Мотоциклы</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Правовая информация</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Программа лояльности</a></li>
+            <li><a href="#">Персональные данные</a></li>
+            <li><a href="#">Запчасти</a></li>
+            <li><a href="#">Корпоративным клиентам</a></li>
+            <li><a href="#">Прокат автомобилей</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Карьера</a></li>
+            <li><a href="#">Финансовые услуги</a></li>
+            <li><a href="#">Инвесторам</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Карта сайта</a></li>
+        </ul>
+    </div>
+
+</footer>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <div class="buy-click__mod">
+            <div class="close"></div>
+            <div class="buy-click__cnt">
+                <h4>Заказать обратный звонок</h4>
+                <p>Оставьте свой номер и наши менеджеры свяжутся с вами в ближайшее время</p>
+            </div>
+            <form>
+                <div class="modal-inp">
+                    <label>
+                        <input type="text" placeholder="Ваше имя">
+                    </label>
+                </div>
+                <div class="modal-inp modal-inp__err">
+                    <label>
+                        <input type="text" placeholder="+7 999 999 99 99" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}"
+                               class="phone">
+                    </label>
+                </div>
+                <button class="btn-blue ">Отравить</button>
+                <div class="checkmark-cnt">
+                    <label>
+                        <input type="checkbox" checked="">
+                        <span class="checkmark"></span>
+                        <small>Согласен на обработку</small>
+                        <a href="#">персональных данных</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/js/selection.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/all-slider.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+

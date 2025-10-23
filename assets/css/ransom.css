@@ -1,0 +1,728 @@
+.car-loan__wrap{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 10px;
+}
+.car-loan-ransom .modal-inp input {
+    font-size: 14px;
+    font-weight: 700;
+    height: 52px;
+}
+.car-loan-ransom .select-style{
+    max-width: 100%;
+}
+.car-loan-ransom .select-style .select2-container--default .select2-selection--single {
+    height: 52px;
+}
+.car-loan-ransom .select-style .select2-selection__rendered {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.car-loan-ransom .glob-form-style .checkmark-cnt label a {
+    display: inline;
+}
+.car-loan-ransom .checkmark-cnt label {
+    line-height: 26px;
+}
+
+
+.car-loan__box{
+    max-width: 48%;
+    width: 100%;
+    padding-left: 60px;
+    position: relative;
+}
+.car-loan__box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.car-loan__box strong{
+    color: var(--black-mood);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.car-loan__box span{
+    display: block;
+    margin-top: 4px;
+    color: var(--black-mood);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.procedure__fon{
+    background: var(--black-mood);
+    padding: 80px 0;
+}
+.procedure__fon h2{
+    color: var(--white);
+}
+.procedure__flex{
+    margin-top: 64px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.procedure__box{
+    max-width: 350px;
+    width: 100%;
+}
+.procedure__info{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.procedure__name h5{
+    margin-top: 8px;
+}
+.procedure__time{
+    color: var(--main-color);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: var(--white);
+    width: max-content;
+}
+.procedure__box p{
+    color: var(--sliver);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    max-width: 310px;
+    width: 100%;
+}
+.procedure__box .btn-blue{
+    padding: 8px 24px;
+    font-size: 16px;
+}
+.doc-purch-ransom .doc-purch__box{
+    width: 25%;
+}
+.doc-purch-ransom .doc-purch__href span {
+    max-width: 200px;
+    width: 100%;
+}
+.ransom-magnit__main .btn-black{
+    background: var(--main-color);
+}
+
+.ransom-magnit__text{
+    margin-top: 70px;
+    max-width: 1280px;
+    width: 100%;
+}
+.ransom-magnit__text p{
+    color: var(--sliver-tree);
+}
+.tycoon-buying{
+    max-width: 1332px;
+    width: 100%;
+}
+.tycoon-buying p{
+    color: var(--sliver-mood-seree);
+    margin-top: 32px;
+}
+.tycoon-buying__flex{
+    display: flex;
+    margin-top: 40px;
+    gap: 32px;
+}
+.tycoon-buying__photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    height: 476px;
+    max-width: 864px;
+    width: 100%;
+}
+.tycoon-buying__wrap{
+    max-width: 863px;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--sliver-five);
+    border-radius: 32px;
+    gap: 40px;
+}
+.tycoon-buying__info{
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.tycoon-buying__info p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.tycoon-buying__info .icons{
+    color: var(--main-color);
+    font-size: 60px;
+}
+.exchange-tit{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    width: 100%;
+}
+.car-catalog__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.car-catalog__box{
+    width: 25%;
+    padding: 15px;
+}
+.car-catalog__href{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.car-catalog__href span{
+    color: var(--black-mood);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 155px;
+    width: 100%;
+}
+.car-catalog__box:nth-child(3) .car-catalog__href span{
+    color: var(--white);
+}
+.car-catalog__box:nth-child(1) .car-catalog__href{
+    border-radius: 32px 4px 4px 4px;
+}
+.car-catalog__box:nth-child(4) .car-catalog__href{
+    border-radius: 4px 32px 4px 4px;
+}
+.car-catalog__box:nth-child(5) .car-catalog__href{
+    border-radius: 4px 4px 4px 32px;
+}
+.car-catalog__box:nth-child(8) .car-catalog__href{
+    border-radius: 4px 4px 32px 4px;
+}
+.buying-car__text h5{
+    color: var(--black-mood);
+    border-top: 1px solid var(--sliver-two);
+    padding-top: 24px;
+    margin-top: 48px;
+}
+.buying-car__text p{
+    margin-top: 24px;
+    color: var(--sliver-tree);
+    max-width: 1072px;
+    width: 100%;
+}
+.districts__flex{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.districts__href{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: var(--sliver-five);
+    transition: 0.3s;
+    max-width: 199px;
+    width: 100%;
+    height: 68px;
+    cursor: pointer;
+}
+.districts__act{
+    background: linear-gradient(229deg, #6066FF 26.66%, #1E5AF4 120.4%);
+}
+
+.districts__href span{
+    color: var(--sliver-tree);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+
+}
+.districts__href small{
+    color: var(--black-mood);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    display: block;
+}
+.districts__act span, .districts__act small{
+    color: var(--white);
+}
+.districts__cnt{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.districts__map{
+    display: flex;
+    width: 100%;
+    height: 640px;
+}
+.districts__map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.districts__block{
+    position: absolute;
+    top: 90px;
+    right: 70px;
+    max-width: 390px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--white);
+    box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.03);
+    padding: 40px 12px 10px 40px;
+
+}
+.districts__scr::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+    background: var(--white);
+    border-radius: 4px;
+}
+.districts__scr::-webkit-scrollbar-thumb {
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    background: var(--main-color);
+}
+.districts__scr{
+    padding-right: 20px;
+    overflow-y: scroll;
+    height: 435px;
+}
+.districts__title strong{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.districts__title span{
+    display: block;
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.districts__inp{
+    margin-top: 28px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.districts__search{
+    display: flex;
+    background: unset;
+    position: absolute;
+    left: 16px;
+}
+.districts__inp label{
+    display: flex;
+    width: 100%;
+}
+.districts__inp input{
+    display: flex;
+    width: 100%;
+    height: 64px;
+    padding: 15px 16px 15px 55px;
+    align-items: center;
+    border-radius: 6px;
+    background: var(--white);
+    box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.08);
+    color: var(--sliver-tree);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.districts__box{
+    margin-top: 10px;
+}
+
+.districts__name{
+    padding: 17px 0 20px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.20);
+}
+.districts__name span{
+    color: var(--black-mood);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: block;
+}
+.districts__name span + span{
+    font-weight: 400;
+    color: var(--main-color);
+}
+.districts__metro{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    gap: 6px;
+}
+.districts__metro small{
+    color: var(--sliver-tree);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.magnit__prod{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 16px;
+    position: relative;
+}
+.magnit__prod small{
+    color: var(--black-mood);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: 0.3s;
+}
+.magnit__prod p{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: 0.3s;
+}
+.magnit__info:hover .magnit__prod small, .magnit__info:hover .magnit__prod p{
+    color: var(--white);
+}
+
+
+
+@media (max-width: 1599px){
+    .car-loan__box strong {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .car-loan__box span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .car-loan__box img {
+        width: 35px;
+    }
+    .car-loan__wrap {
+        margin-top: 35px;
+        gap: 24px 10px;
+    }
+    .car-loan__box {
+        max-width: 250px;
+        padding-left: 45px;
+        position: relative;
+    }
+    .magnit__prod p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .tycoon-buying__wrap {
+        padding: 32px;
+        gap: 24px;
+    }
+    .tycoon-buying__info {
+        max-width: 290px;
+    }
+    .tycoon-buying__photo {
+        height: 400px;
+    }
+    .car-catalog__href {
+        padding: 24px;
+        background-position: center;
+    }
+    .car-catalog__wrap {
+        margin: 0 -8px;
+    }
+    .car-catalog__box {
+        padding: 8px;
+    }
+    .car-catalog__href span {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .doc-purch-ransom .doc-purch__box {
+        width: 33.333333%;
+    }
+}
+@media (max-width: 1420px){
+    .procedure__flex {
+        gap: 35px;
+        flex-wrap: wrap;
+    }
+    .tycoon-buying__wrap {
+        gap: 20px;
+    }
+    .tycoon-buying__info {
+        max-width: 266px;
+        gap: 20px;
+    }
+    .tycoon-buying__info .icons {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1299px){
+    .car-loan__box {
+        max-width: 445px;
+    }
+    .car-loan__wrap {
+        margin-top: 24px;
+        gap: 16px 10px;
+    }
+    .tycoon-buying__flex {
+        gap: 24px;
+    }
+    .tycoon-buying__photo {
+        height: 326px;
+        max-width: 550px;
+        border-radius: 24px;
+    }
+    .tycoon-buying__wrap {
+        padding: 24px;
+        gap: 24px 14px;
+        border-radius: 24px;
+    }
+    .tycoon-buying__info {
+        gap: 10px;
+    }
+    .tycoon-buying__info .icons {
+        font-size: 40px;
+    }
+    .car-catalog__href {
+        padding: 20px;
+        height: 150px;
+    }
+    .districts__flex {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .districts__block {
+        top: 70px;
+        right: 50px;
+        max-width: 370px;
+        padding: 30px 12px 10px 30px;
+    }
+    .car-loan-ransom .checkmark-cnt label {
+        line-height: 18px;
+    }
+    .procedure__box {
+        max-width: 455px;
+    }
+    .procedure__flex {
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .doc-purch-ransom .doc-purch__box {
+        width: 50%;
+    }
+    .tycoon-buying__flex {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .tycoon-buying__photo {
+        height: 450px;
+        max-width: 863px;
+        border-radius: 24px;
+    }
+    .tycoon-buying__info {
+        max-width: 365px;
+    }
+    .tycoon-buying__info {
+        gap: 20px;
+    }
+}
+@media (max-width: 1199px){
+    .districts__map {
+        height: 500px;
+    }
+
+}
+@media (max-width: 1020px){
+    .car-loan__box strong {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .procedure__box {
+        max-width: 315px;
+    }
+    .procedure__flex {
+        gap: 40px 25px;
+    }
+    .tycoon-buying__info {
+        max-width: 330px;
+    }
+    .buying-car__text h5 {
+        padding-top: 18px;
+        margin-top: 24px;
+    }
+    .car-catalog__box {
+        width: 50%;
+    }
+    .car-catalog__box:nth-child(4) .car-catalog__href {
+        border-radius: 4px;
+    }
+    .car-catalog__box:nth-child(5) .car-catalog__href {
+        border-radius: 4px;
+    }
+    .car-catalog__box:nth-child(1) .car-catalog__href {
+        border-radius: 24px 4px 4px 4px;
+    }
+    .car-catalog__box:nth-child(2) .car-catalog__href {
+        border-radius: 4px 24px 4px 4px;
+    }
+    .car-catalog__box:nth-child(7) .car-catalog__href {
+        border-radius: 4px 4px 4px 24px;
+    }
+    .car-catalog__box:nth-child(8) .car-catalog__href {
+        border-radius: 4px 4px 24px 4px;
+    }
+    .districts__flex {
+        gap: 10px;
+    }
+    .districts__href {
+        max-width: 175px;
+    }
+    .districts__block {
+        max-width: 400px;
+        padding: 28px 12px 10px 24px;
+        position: relative;
+        top: 0;
+        right: 0;
+        border-radius: 16px;
+        border: 1px solid var(--white-two);
+        background: var(--sliver);
+        box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.03);
+    }
+    .districts__map {
+        display: flex;
+        width: 100%;
+        height: 480px;
+        margin-top: 50px;
+    }
+
+}
+@media (max-width: 760px){
+    .doc-purch-ransom .doc-purch__box {
+        width: 100%;
+
+    }
+    .ransom-magnit__text {
+        margin-top: 50px;
+    }
+    .tycoon-buying__info {
+        flex-direction: row;
+        gap: 24px;
+    }
+    .tycoon-buying__info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 570px){
+    .procedure__info img{
+        width: 24px;
+    }
+
+   .procedure__fon h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .procedure__fon {
+        padding: 32px 0;
+    }
+    .doc-purch____wrap {
+        margin: 16px 0 0;
+    }
+    .procedure__info h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .procedure__box p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .procedure__time {
+        padding: 4px 7px;
+    }
+    .procedure__info {
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .ransom-magnit__text {
+        margin-top: 24px;
+    }
+    .tycoon-buying p {
+        margin-top: 24px;
+    }
+    .tycoon-buying__photo {
+        height: 350px;
+        max-width: 450px;
+    }
+    .car-catalog__box {
+        width: 100%;
+    }
+    .car-catalog__href {
+        padding: 40px 16px;
+        height: 200px;
+    }
+    .car-catalog__box:nth-child(1) .car-catalog__href {
+        border-radius: 24px 24px 4px 4px;
+    }
+
+    .car-catalog__box:nth-child(2) .car-catalog__href {
+        border-radius: 4px;
+    }
+    .car-catalog__box:nth-child(7) .car-catalog__href {
+        border-radius: 4px;
+    }
+    .car-catalog__box:last-child .car-catalog__href {
+        border-radius: 4px 4px 24px 24px;
+    }
+    .districts__href {
+        max-width: 48%;
+    }
+    .districts__flex {
+        margin-top: 24px;
+    }
+    .districts__block {
+        padding: 28px 10px 10px 18px;
+    }
+    .districts__inp input {
+        height: 52px;
+        padding: 15px 16px 15px 50px;
+    }
+    .districts__map {
+        height: 400px;
+    }
+}

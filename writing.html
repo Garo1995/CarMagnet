@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>АвтоМагнат</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header__main">
+            <div class="open-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__cnt">
+                <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="catalog__menu">
+                    <ul>
+                        <li><a href="#" class="open-catalog">Каталог </a></li>
+                        <li><a href="#">Услуги </a></li>
+                        <li><a href="#">О компании</a>
+                            <ul class="submenu">
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                                <li><a href="#">Заголовок</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__fl">
+                <div class="header__menu">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="header__location">
+                    <i class="icons icon-location"></i>
+                    <span>Москва</span>
+                </a>
+
+                <button data-val="modal" class="open_modal btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="menu__fix">
+        <div class="container">
+            <div class="menu-fix__block">
+                <div class="menu-fix__href">
+                    <a href="#" class="menu-fix__name">Каталог автомобилей</a>
+                    <ul>
+                        <li><a href="#" class="cars-stock__act">Автомобили в наличии</a></li>
+                        <li><a href="#">С пробегом</a></li>
+                        <li><a href="#">Выкуп автомобиля</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                        <li><a href="#">Предложения дня</a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Новые мотоцикли</a></li>
+                        <li><a href="#">Мото с пробегом</a></li>
+                        <li><a href="#">Запчасти</a></li>
+                    </ul>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по типу кузова</h4>
+                    <div class="menu-fix__wrap">
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car1.png" alt="car">
+                            <span>Кроссовер</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car2.png" alt="car">
+                            <span>Седан</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car3.png" alt="car">
+                            <span>Внедорожник</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car4.png" alt="car">
+                            <span>Универсал</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car5.png" alt="car">
+                            <span>Хэтчбек</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car6.png" alt="car">
+                            <span>Пик Ап</span>
+                        </a>
+                        <a href="#" class="menu-car__body">
+                            <img src="./assets/img/sr-car7.png" alt="car">
+                            <span>Минивен</span>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Обзор по маркам</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car4.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>619 авто</small>
+                                <span>BMW</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car3.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>300 авто</small>
+                                <span>Audi</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car2.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>2 авто</small>
+                                <span>Aston Martin</span>
+                            </div>
+                        </a>
+                        <a href="#" class="stock-car__info">
+                            <div class="stock-car__logo">
+                                <img src="./assets/img/logo-car1.png" alt="logo">
+                            </div>
+                            <div class="stock-car__name">
+                                <small>4 авто</small>
+                                <span>AURUS</span>
+                            </div>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-fix__box">
+                    <h4 class="browse-brand">Поиск по образу жизни</h4>
+                    <div class="browse-brand__wrap">
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle1.svg" alt="logo">
+                            <p>
+                                Семейные
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle2.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <strong>< 1.5 млн</strong>
+                            <p>
+                                Стоимость авто
+                                до 1 млн
+                            </p>
+                        </a>
+                        <a href="#" class="lifestyle__href">
+                            <img src="./assets/img/vehicle3.svg" alt="logo">
+                            <p>
+                                Городские
+                                автомобили
+                            </p>
+                        </a>
+                        <a href="#" class="more-all-info">
+                            <span class="more-all__arrow"></span>
+                            <small>Показать все</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="review-single-pages">
+
+    <div class="container">
+        <div class="bread-caps-pages">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Все отзывы</a></li>
+                <li><a href="#">Отзывы о BMW</a></li>
+                <li><a href="#">Модель</a></li>
+                <li>Отзыв</li>
+            </ul>
+        </div>
+        <div class="pop-reviews__cnt">
+            <div class="pop-reviews__share">
+                <img src="./assets/img/era5.jpg" alt="image">
+                <h3>Подсказка как написать отзыв</h3>
+                <ul>
+                    <li>Расскажите, что Вам понравилось, а что нет.</li>
+                    <li>Соответствуют ли заявленные характеристики авто реальным?</li>
+                    <li>Порекомендуете этот автомобиль? Почему?</li>
+                </ul>
+            </div>
+            <div class="pop-reviews__right">
+                <h2>Оставить отзыв</h2>
+                <div class="writing-pop__block">
+                    <div class="writing-pop__box">
+                        <div class="writing-pop__click">
+                            <h4 class="count-number__title">Выберите марку авто</h4>
+                            <span class="writing-pop__arrow"></span>
+                        </div>
+                        <div class="writing-pop__check">
+                            <div class="writing-pop__fl">
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Brand</small>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="writing-pop__box">
+                        <div class="writing-pop__click">
+                            <h4 class="count-number__title">Выберите модель</h4>
+                            <span class="writing-pop__arrow"></span>
+                        </div>
+                        <div class="writing-pop__check">
+                            <div class="writing-pop__fl">
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                                <div class="checkmark-cnt">
+                                    <label>
+                                        <input type="checkbox" checked="">
+                                        <span class="checkmark"></span>
+                                        <small>Name</small>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="writing-reviews__box">
+                        <h4 class="count-number__title">Напишите отзыв</h4>
+                        <form>
+                            <div class="writing-reviews__inp">
+                                <label>
+                                    <input type="text" placeholder="Заголовок">
+                                </label>
+                            </div>
+                            <div class="writing-reviews__textarea">
+                                <label>
+                                    <textarea placeholder="Текст отзыва"></textarea>
+                                </label>
+                                <small>Максимально 1000 знаков</small>
+                            </div>
+                            <div class="writing-reviews__btn">
+                                <button class="btn-blue">Далее</button>
+                                <input class="custom-file-input" type="file">
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="pric-auto__cnt">
+                        <h4 class="count-number__title">Оцените авто</h4>
+                        <div class="reviews-rating">
+                            <div class="rating-hyund__fl">
+                                <div class="rating-rezult">
+                                    <span>4.6 %</span>
+                                </div>
+                                <div class="rating-hyund__block">
+                                    <div class="rating-hyund__box">
+                                        <div class="rating-hyund__cnt">
+                                            <div class="rating-count-size">
+                                                <div class="rating-colors rating-red">1</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-colors rating-red-two">2</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-colors rating-yellow">3</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-colors rating-yellow-two">4</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-colors rating-green">5</div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-yech">
+                                            <p>Комфорт</p>
+                                            <span>4.6</span>
+                                        </div>
+                                    </div>
+                                    <div class="rating-hyund__box">
+                                        <div class="rating-hyund__cnt">
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">1</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">2</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">3</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">4</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">5</div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-yech">
+                                            <p>Надежность</p>
+                                            <span>4.7</span>
+                                        </div>
+                                    </div>
+                                    <div class="rating-hyund__box">
+                                        <div class="rating-hyund__cnt">
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">1</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">2</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">3</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">4</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">5</div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-yech">
+                                            <p>Безопасность</p>
+                                            <span>4.4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rating-hyund__block anuter-marg">
+                                    <div class="rating-hyund__box">
+                                        <div class="rating-hyund__cnt">
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">1</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">2</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">3</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">4</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">5</div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-yech">
+                                            <p>Ходовые качества</p>
+                                            <span>4.6</span>
+                                        </div>
+                                    </div>
+                                    <div class="rating-hyund__box">
+                                        <div class="rating-hyund__cnt">
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">1</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">2</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">3</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">4</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">5</div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-yech">
+                                            <p>Технологичность</p>
+                                            <span>4.3</span>
+                                        </div>
+                                    </div>
+                                    <div class="rating-hyund__box">
+                                        <div class="rating-hyund__cnt">
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">1</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">2</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">3</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">4</div>
+                                            </div>
+                                            <div class="rating-count-size">
+                                                <div class="rating-unset-bg">5</div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-yech">
+                                            <p>Экономичность</p>
+                                            <span>4.2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose-the-pro">
+                        <h4 class="count-number__title">Выберите плюсы и минусы авто</h4>
+                        <div class="disadvantages-dus__fl">
+                                <div class="disadvantages-dus__cnt">
+                                    <div class="general-pros__text">
+                                        <span class="general-pros__plus">+</span>
+                                        <p>
+                                            Плюс
+                                        </p>
+                                    </div>
+                                    <div class="general-pros__text">
+                                        <span class="general-pros__plus">+</span>
+                                        <p>
+                                            Плюс
+                                        </p>
+                                    </div>
+                                    <div class="general-pros__text">
+                                        <span class="general-pros__plus">+</span>
+                                        <p>
+                                            Плюс
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="disadvantages-dus__cnt">
+                                    <div class="general-pros__text">
+                                        <span class="general-pros__minus">-</span>
+                                        <p>
+                                            Минус
+                                        </p>
+                                    </div>
+                                    <div class="general-pros__text">
+                                        <span class="general-pros__minus">-</span>
+                                        <p>
+                                            Минус
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="writing-post-review">
+                        <h4 class="count-number__title">Войдите, чтобы опубликовать отзыв</h4>
+                        <div class="login-post__btn">
+                            <a href="#" class="btn-lin-ok">Войти через Одноклассники</a>
+                            <a href="#" class="btn-lin-log">Войти через Вконтакте</a>
+                            <a href="#" class="btn-lin-log">Войти через Google</a>
+                        </div>
+                        <div class="logged-nickname">
+                            <p>Вы вошли как nickname</p>
+                            <a href="#">(Выйти)</a>
+                        </div>
+                    </div>
+                    <button class="btn-blue writing-btn-publish">Опубликовать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="car-loan-margin">
+    <div class="container">
+        <div class="footer__main">
+            <div class="footer__item">
+                <a href="#" class="footer__logo"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="#">Каталог </a></li>
+                        <li><a href="#">Коммерческие</a></li>
+                        <li><a href="#">Мото</a></li>
+                        <li><a href="#">Услуги </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__link">
+                <ul>
+                    <li><a href="#">Автомобили</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Мотоциклы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Правовая информация</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">Программа лояльности</a></li>
+                    <li><a href="#">Персональные данные</a></li>
+                    <li><a href="#">Запчасти</a></li>
+                    <li><a href="#">Корпоративным клиентам</a></li>
+                    <li><a href="#">Прокат автомобилей</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Финансовые услуги</a></li>
+                    <li><a href="#">Инвесторам</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Карта сайта</a></li>
+                </ul>
+            </div>
+            <div class="footer__cnt">
+                <a href="#" class="footer__phone">+7 (999) 999-99-99</a>
+                <a href="#" class="btn-call">
+                    <i class="icons icon-tell"></i>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="footer__contact">
+                    <ul>
+                        <li>
+                            <i class="icons icon-messages"></i>
+                            <span>name@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-location"></i>
+                            <span>г. Москва, улица, д. , стр.</span>
+                        </li>
+                        <li>
+                            <i class="icons icon-clock"></i>
+                            <span>Пн. - Пт. с 9:00 до 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__fon">
+        <div class="container">
+            <div class="first-know__block">
+                <div class="first-know__fl">
+                    <h3>Узнавайте первыми</h3>
+                    <form>
+                        <div class="first-know__form">
+                            <div class="first-know__inp">
+                                <label>
+                                    <input type="text" placeholder="Ваш email">
+                                </label>
+                            </div>
+                            <button class="btn-blue">Подписаться на новости</button>
+                            <div class="checkmark-cnt">
+                                <label>
+                                    <input type="checkbox" checked="">
+                                    <span class="checkmark"></span>
+                                    <small>Согласен на обработку</small>
+                                    <a href="#">персональных данных</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p>
+                    Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер
+                    и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации. Для получения подробной информации о стоимости автомобилей Audi, BMW, BMW Motorrad, Chrysler, Ford, Genesis, Hyundai, Jaguar, Jeep, Kia, Land Rover, Lexus, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Porsche, Renault, SKODA, Toyota, Volkswagen обращайтесь к менеджерам по продажам в автоцентры РОЛЬФ. Для получения информации о приобретении автомобилей в кредит, страховании, техническом обслуживании и ремонте автомобилей, запасных частях, дополнительном оборудовании, аксессуарах также обращайтесь в сервисные центры и автосалоны РОЛЬФ.Права на сайт принадлежат AO «РОЛЬФ» (ИНН 5047254063, ОГРН 1215000076279 от 27 июля 2021 года) тел. +7 (495) 785-19-78 , адрес эл. почты reception@rolf.ru
+                    *РОЛЬФ признан лучшим в организации продаж новых автомобилей и в организации сервиса премии Автодилер года 2021
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer__down">
+            <p>© АвтоМагнат. 2021</p>
+            <div class="footer__soc">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="icons icon-wk"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="icons icon-youtube"></i></a></li>
+                </ul>
+            </div>
+            <a href="#" class="footer__politic">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/js/selection.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/all-slider.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+

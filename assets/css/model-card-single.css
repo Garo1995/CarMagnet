@@ -1,0 +1,875 @@
+.mod-range__main{
+  margin-top: 48px;
+}
+.mod-range__fon{
+    width: 100%;
+    padding: 80px 48px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+}
+.mod-range__photo{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.mod-range__photo img{
+    border-radius: 32px;
+    width: 100%;
+}
+.glob-form-style{
+    max-width: 402px;
+    width: 100%;
+    border-radius: 24px;
+    background: var(--black-mood-three);
+    position: relative;
+    padding: 32px;
+}
+.glob-form-style .select-brand {
+    margin-bottom: 16px;
+}
+.glob-form__title{
+    margin-bottom: 20px;
+}
+.glob-form__title strong{
+    display: block;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.glob-form__title span{
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: block;
+    margin-top: 8px;
+}
+.glob-form-style .modal-inp {
+    margin-bottom: 16px;
+}
+.glob-form-style .btn-blue {
+    border-radius: 24px;
+    padding: 8px 32px;
+    width: 100%;
+    height: 54px;
+}
+.glob-form-style .checkmark-cnt{
+    margin-top: 20px;
+}
+
+.glob-form-style  .checkmark-cnt label{
+    color: var(--sliver-tree);
+    font-size: 12px;
+    line-height: 16px;
+}
+.glob-form-style  .checkmark-cnt label a{
+    color: var(--sliver-tree);
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+}
+
+.glob-form-style .checkmark {
+    top: 3px;
+    height: 24px;
+    width: 24px;
+    background: var(--black-mood-four);
+}
+
+.glob-form-style .checkmark-cnt label .checkmark:after {
+    border: solid var(--main-color);
+    border-width: 0 3px 3px 0;
+    opacity: 0.6;
+    left: 8px;
+    top: 4px;
+}
+.mod-range__info{
+    max-width: 825px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.mod-range__info img{
+    margin-bottom: 16px;
+}
+.mod-range__info h4{
+    color: var(--white);
+    max-width: 500px;
+    width: 100%;
+}
+.mod-range__btn{
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+.range-btn{
+    display: flex;
+    align-items: center;
+    padding: 22px 48px;
+    gap: 24px;
+    color: var(--blue-two);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    background: var(--white);
+    border-radius: 32px;
+    transition: 0.3s;
+
+    width: max-content;
+}
+.range-btn .icons{
+    color: var(--blue-two);
+    font-size: 24px;
+    transition: 0.3s;
+
+}
+.range-btn:hover{
+    color: var(--white);
+    background: var(--main-color);
+
+}
+.range-btn:hover .icons{
+    color: var(--white);
+}
+
+
+.new-car__menu{
+    margin-top: 58px;
+}
+.new-car__menu ul{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--gray);
+    padding: 6px;
+    gap: 8px;
+    width: max-content;
+}
+
+.new-car__menu ul li a{
+    display: flex;
+    padding: 5px 16px 6px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 222px;
+    color: var(--blue-two);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    transition: 0.3s;
+}
+.new-car__menu ul li a:hover{
+    background: var(--main-color);
+    color: var(--white);
+}
+.new-car__menu ul .new-car__act a{
+    background: var(--main-color);
+    color: var(--white);
+}
+
+.dars-sale-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.dars-sale__title{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.dars-sale__title span{
+    color: var(--main-color);
+}
+.dars-sale__flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.dars-sale__box{
+    width: 25%;
+    margin-top: 48px;
+    padding: 0 15px;
+}
+.dars-sale__box .cars-info {
+    border-radius: 24px;
+}
+.dars-sale__box .cars-info__photo img {
+    border-radius: 24px 24px 0 0;
+}
+.dars-sale__box .cars-info__name {
+    border-radius: 0 0 24px 24px;
+}
+.param-ection{
+    border-radius: 40px;
+    background: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 424px;
+    width: 100%;
+    padding: 6px;
+}
+.param-ection__click{
+    padding: 5px 16px 6px 16px;
+    color: var(--blue-two);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    border-radius: 222px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.param-ection__act{
+    background: var(--main-color);
+    color: var(--white);
+}
+.outProduction{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 55px -15px 0;
+}
+.outProduction__box{
+    width: 25%;
+    padding: 15px;
+}
+.outProduction__pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 37px 35px;
+    gap: 60px;
+    border-radius: 24px;
+    background: var(--sliver-five);
+    position: relative;
+    transition: 0.3s;
+}
+.outProduction__pic:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    background: linear-gradient(229deg, #6066FF 26.66%, #1E5AF4 120.4%);
+    opacity: 0;
+    transition: 0.3s;
+}
+.outProduction__pic img{
+    position: relative;
+    z-index: 1;
+}
+.outProduction__pic span{
+    color: var(--black-mood);
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: block;
+}
+.outProduction__pic:hover:before{
+    opacity: 1;
+}
+.outProduction__pic:hover span{
+    color: var(--white);
+}
+
+.rating-hyund__fon{
+    background: var(--black-mood);
+    padding: 80px 0 96px;
+}
+.rating-hyund h2{
+    color: var(--white);
+}
+.rating-hyund__fl{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-top: 40px;
+}
+.rating-rezult{
+    display: flex;
+    max-width: 225px;
+    width: 100%;
+    height: 225px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50%;
+    background: var(--main-color);
+}
+.rating-rezult span{
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.rating-rezult img{
+    display: none;
+}
+.rating-hyund__block{
+    max-width: 703px;
+    width: 100%;
+}
+.rating-hyund__box + .rating-hyund__box{
+    margin-top: 48px;
+}
+.rating-hyund__cnt{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.rating-count-size{
+    width: calc(25% - 8px);
+    height: 28px;
+    border-radius: 16px;
+    background: var(--sliver-tree);
+}
+.bg-green{
+    border-radius: 16px;
+    background: var(--green);
+    width: 100%;
+    height: 100%;
+}
+.rating-yech{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating-yech p, .rating-yech span{
+    color: var(--white);
+    font-size: 24px;
+    line-height: 32px;
+}
+.rating-yech p{
+    font-weight: 400;
+}
+.rating-yech span{
+    font-weight: 600;
+}
+.anuter-marg .rating-hyund__box + .rating-hyund__box{
+    margin-top: 32px;
+}
+
+.satisfied__single .swiper-button-prev, .satisfied__single .swiper-button-next {
+    background: var(--gray-two);
+}
+.satisfied__single .swiper-button-next.swiper-button-disabled, .satisfied__single .swiper-button-prev.swiper-button-disabled{
+    background: var(--sliver-tree);
+    opacity: 1;
+}
+.satisfied__single .swiper-button-prev:before, .satisfied__single .swiper-button-next:before {
+    border-top: 3px solid var(--white);
+    border-right: 3px solid var(--white);
+}
+.satisfied__single .btn-blue{
+    color: var(--black-mood);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background: var(--white);
+}
+.satisfied__single .satisfied__info {
+    border: 1px solid var(--white);
+}
+.opportunities__fon{
+    background: var(--sliver-five);
+
+}
+.opportunities__flex{
+    display: flex;
+    justify-content: space-between;
+}
+.opportunities__info{
+    max-width: 888px;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    border-left: 8px solid var(--main-color);
+    padding: 60px 0 60px 84px;
+}
+.opportunities__logo{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.opportunities__info h2{
+    max-width: 580px;
+    width: 100%;
+    margin-top: 45px;
+    text-transform: unset;
+    font-weight: 400;
+}
+.opportunities__photo{
+    display: flex;
+}
+.opportunities__photo img{
+    border-radius: 32px;
+    width: 100%;
+}
+
+.official-dealer{
+    padding: 48px;
+    border-radius: 40px;
+    border: 1px solid var(--sliver-tree);
+    background: var(--sliver);
+}
+.official-dealer h2{
+    max-width: 1100px;
+    width: 100%;
+}
+.official-dealer__block{
+    margin-top: 22px;
+    max-width: 1020px;
+    width: 100%;
+}
+.official-dealer__block p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.official-dealer__block strong{
+    color: var(--black-mood);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    display: block;
+    margin-top: 18px;
+}
+.official-dealer__block ul {
+    margin-top: 18px;
+    padding-left: 20px;
+    list-style: unset;
+
+}
+.official-dealer__block ul li{
+    color: var(--black-mood);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.collapse-click{
+    margin-top: 70px;
+    max-width: 343px;
+    width: 100%;
+    height: 60px;
+    border-radius: 24px;
+    background: var(--main-color);
+    justify-content: flex-start;
+    position: relative;
+}
+.collapse-click:after{
+    content: "";
+    position: absolute;
+    border-top: 3px solid var(--white);
+    border-right: 3px solid var(--white);
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    right: 18px;
+    top: 27px;
+}
+
+.accordion__text ul li{
+    color: var(--sliver-tree);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+    transition: 0.3s;
+}
+.accordion__text ul li:hover{
+    color: var(--black-mood);
+
+}
+@media (max-width: 1699px){
+    .param-ection__click {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media (max-width: 1599px) {
+    .param-ection__click {
+        padding: 5px 12px 6px 12px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .rating-hyund__fl {
+        gap: 32px;
+    }
+
+    .rating-yech p, .rating-yech span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .rating-rezult span {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .rating-rezult {
+        max-width: 190px;
+        height: 190px;
+    }
+
+    .param-ection__click {
+        padding: 5px 11px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .param-ection {
+        border-radius: 30px;
+        max-width: 318px;
+        padding: 6px;
+        margin-left: auto;
+    }
+
+    .selection-sing .car-selection__info {
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .selection-sing .select-style {
+        max-width: 25%;
+    }
+
+    .dars-sale__box {
+        width: 25%;
+        margin-top: 30px;
+        padding: 0 8px;
+    }
+
+    .dars-sale__flex {
+        margin: 0 -8px;
+    }
+
+    .dars-sale__box .cars-info__name {
+        padding: 15px 15px;
+    }
+
+    .mod-range__fon {
+        padding: 70px 40px;
+        gap: 35px;
+    }
+
+    .dars-sale__box .btn-blue {
+        padding: 8px 16px;
+    }
+
+}
+@media (max-width: 1420px){
+    .new-car__menu ul li a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .opportunities__info {
+        max-width: 660px;
+        padding: 40px 0 40px 40px;
+    }
+    .opportunities__logo img{
+        width: 140px;
+    }
+    .opportunities__logo img:last-child{
+        max-width: 300px;
+        width: 100%;
+    }
+    .opportunities__info h2 {
+        max-width: 490px;
+        margin-top: 28px;
+    }
+
+}
+@media (max-width: 1299px){
+    .range-btn {
+        padding: 14px 24px;
+        gap: 15px;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 24px;
+    }
+    .mod-range__btn {
+        margin-top: 30px;
+        gap: 14px;
+    }
+    .range-btn .icons {
+        font-size: 20px;
+    }
+    .dars-sale__box {
+        width: 33%;
+    }
+    .selection-sing .select-style {
+        max-width: 48%;
+    }
+    .selection-sing .car-selection__inp {
+        max-width: 48%;
+    }
+    .outProduction__box {
+        padding: 8px;
+    }
+    .outProduction {
+        margin: 40px -8px 0;
+    }
+    .mod-range__fon {
+        padding: 40px 22px;
+        gap: 22px;
+    }
+    .mod-range__info img {
+        margin-bottom: 7px;
+        max-width: 159px;
+        width: 100%;
+    }
+    .special-offers__box {
+        margin-top: 14px;
+    }
+}
+@media (max-width: 1199px){
+    .rating-rezult {
+        max-width: 170px;
+        height: 170px;
+    }
+    .rating-rezult span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .rating-hyund__fl {
+        gap: 20px;
+    }
+    .official-dealer__block strong {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 14px;
+    }
+    .official-dealer__block ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .official-dealer {
+        padding: 24px;
+        border-radius: 24px;
+    }
+    .official-dealer__block p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .collapse-click {
+        margin-top: 24px;
+        max-width: 290px;
+    }
+
+}
+@media (max-width: 991px){
+    .mod-range__fon .glob-form-style{
+        display: none;
+    }
+    .mod-range__main {
+        margin-top: 22px;
+    }
+
+    .special-offers__title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+
+    .dars-sale__box {
+        width: 50%;
+    }
+    .outProduction__box {
+        width: 33%;
+    }
+    .outProduction__pic {
+        padding: 20px 15px;
+        gap: 12px;
+    }
+
+    .rating-hyund__fl {
+        gap: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .anuter-marg .rating-hyund__box + .rating-hyund__box {
+        margin-top: 24px;
+    }
+    .opportunities__info {
+        max-width: 100%;
+        padding: 40px 0 10px 0;
+        margin-bottom: 20px;
+        border-top: 8px solid var(--main-color);
+        border-left: unset;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .opportunities__flex {
+        flex-direction: column;
+    }
+
+
+
+}
+@media (max-width: 760px){
+    .mod-range__fon {
+        padding: 0;
+        gap: 0;
+        flex-direction: column;
+    }
+    .mod-range__photo {
+        position: relative;
+    }
+    .mod-range__photo img {
+        border-radius: 24px 24px 0 0;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .mod-range__photo img {
+        border-radius: 24px 24px 0 0;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 200px;
+    }
+    .mod-range__info{
+        padding: 24px 16px;
+        border-radius: 0px 0px 32px 32px;
+        background: var(--gray);
+    }
+    .mod-range__info img {
+        max-width: 120px;
+    }
+    .mod-range__info h1{
+        color: var(--black-mood);
+    }
+    .mod-range__info h4{
+        color: var(--black-mood);
+    }
+    .mod-range__btn {
+        margin-top: 25px;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .range-btn {
+        padding: 14px 20px;
+        gap: 15px;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 24px;
+        max-width: 295px;
+        width: 100%;
+        justify-content: center;
+    }
+    .range-btn{
+        color: var(--white);
+        background: var(--main-color);
+
+    }
+    .range-btn .icons{
+        color: var(--white);
+    }
+    .new-car__menu {
+        margin-top: 40px;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    }
+    .dars-sale-cnt {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .dars-sale__title {
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .dars-sale__box {
+        width: 100%;
+    }
+    .selection-sing .car-selection__inp {
+        max-width: 100%;
+    }
+    .selection-sing .select-style {
+        max-width: 100%;
+    }
+    .param-ection {
+        margin: 0 auto;
+    }
+    .outProduction__box {
+        width: 50%;
+    }
+    .rating-rezult img{
+        display: block;
+    }
+    .rating-rezult-style-mob {
+        flex-direction: column;
+        border: 13px solid var(--white);
+        max-width: 110px;
+        height: 110px;
+    }
+    .rating-rezult {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .rating-rezult-style-mob span{
+
+    }
+    .dars-sale-cnt .btn-black{
+        display: none;
+    }
+}
+@media (max-width: 570px){
+    .opportunities__logo img {
+        width: 82px;
+    }
+    .opportunities__logo img:last-child {
+        max-width: 212px;
+    }
+    .opportunities__logo {
+        gap: 14px;
+    }
+    .opportunities__photo img {
+        border-radius: 24px;
+    }
+    .official-dealer {
+        padding: 18px;
+    }
+
+    .rating-yech p, .rating-yech span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .rating-rezult {
+        max-width: 140px;
+        height: 140px;
+    }
+}
+@media (max-width: 480px){
+    .outProduction__box {
+        width: 100%;
+    }
+}
+
